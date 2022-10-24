@@ -2,7 +2,13 @@
 
 ## Code Name
 
+<<<<<<< HEAD
 "Rick And Child Morty"
+=======
+*Give your project a code name, a short, evocative name for efficiently referring to your project. Your code name does not change! Examples: Jazz-4, Rocking Fish, etc.*
+testing
+
+>>>>>>> a8098bd2b250705e1adc0abdf1e22d6e1859d269
 
 ## Project Title
 
@@ -12,8 +18,12 @@
 
 ## Authors
 
-*Names of your team members and contact information (UW email addresses).*
 
+Jonathan To- jto9331@uw.edu
+
+Hiba Abbas- hibaa3@uw.edu
+
+Kevin Baron- baronk2@uw.edu
 
 ## Affiliation
 
