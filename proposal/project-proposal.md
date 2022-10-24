@@ -2,9 +2,7 @@
 
 ## Code Name
 
-*Give your project a code name, a short, evocative name for efficiently referring to your project. Your code name does not change! Examples: Jazz-4, Rocking Fish, etc.*
-
-
+"Rick And Child Morty"
 
 ## Project Title
 
@@ -19,7 +17,8 @@
 
 ## Affiliation
 
-INFO-201B: Technical Foundations of Informatics - The Information School - University of Washington - Professor Dave Hendry - TA Ishita Saxena
+INFO-201B: Technical Foundations of Informatics - The Information School -
+University of Washington - Professor Dave Hendry - TA Ishita Saxena
 
 
 ## Date
@@ -55,6 +54,9 @@ Autumn 2022
 ## The Dataset
 
 *(1) Describe how your dataset is related to your problem domain and, specifically, to your research qeustions. That is, how will your dataset enable you to answer your research questions? (2) Include a table that presents the name of each data file, the number of observations (rows), and the number of variables (columns). (3) Include a full citation to each data file, including URL. (4) Finally, describe the provenance of your dataset, addressing such key questions as: (a) Who collected the data? When? For what purpose? (b) How was the data collection effort funded? Who is likely to benefit from the data or make money? (c) How was the data validated and held secure? Is it credible and trustworthy? (d) How did you obtain the data? Do you credit the source of the data? (About 400 words.)*
+
+https://apps.who.int/gho/data/node.main.CHILDHEALTHMORT?lang=en
+
 
 
 ## Expected Implications
