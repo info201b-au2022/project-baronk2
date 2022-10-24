@@ -15,7 +15,9 @@
 ## Authors
 
 *Names of your team members and contact information (UW email addresses).*
-
+Jonathan To- jto9331@uw.edu
+Hiba Abbas- hibaa3@uw.edu
+Kevin Baron- baronk2@uw.edu
 
 ## Affiliation
 
