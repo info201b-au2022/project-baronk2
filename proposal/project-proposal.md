@@ -67,7 +67,14 @@ Autumn 2022
 
 https://apps.who.int/gho/data/node.main.CHILDHEALTHMORT?lang=en
 
+More specifically, the 14 datasets available at
+Global Health Observatory data repository
+By category > Mortality and global health estimates > Child mortality > Causes of child death > Number of deaths by cause
+Number of deaths by country
+HIV/AIDS
+Also available (13 items):
 
+https://apps.who.int/gho/data/node.main.ChildMortCTRY1002015?lang=en
 
 ## Expected Implications
 
