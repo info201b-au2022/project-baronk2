@@ -44,6 +44,9 @@ Autumn 2022
 
 *Briefly introduce your project. (About 150 words.)*
 
+For our project we will be looking at child mortality data from different
+countries between the years 2000 to 2017. We will compare the intersectionality
+of age, country, and disease. 
 
 ## Problem Domain
 
@@ -92,7 +95,11 @@ https://apps.who.int/gho/data/node.main.ChildMortCTRY1002015?lang=en
 ## Limitations
 
 *Proposal only. What limitations might you need to address? Briefly discuss. (About 150 words.)*
-
+One of the biggests limitations is the inacuracy of our data sets. Some
+conutries may have innacurate death tolls, leading to underestimates and skewed
+results. Another limitation that we will need to take into account is that our
+data sets only go up to 2017. This means our data is old and we will be unable
+to see how the trends have continued or discontinued in more recent years.  
 
 ## Findings
 
