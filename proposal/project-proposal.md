@@ -1,19 +1,13 @@
-[Project Title] Proposal
+# *Child Mortality: Global Causes of Death* Proposal
 
 ## Code Name
 
-<<<<<<< HEAD
 "Rick And Child Morty"
-=======
-*Give your project a code name, a short, evocative name for efficiently referring to your project. Your code name does not change! Examples: Jazz-4, Rocking Fish, etc.*
-testing
 
->>>>>>> a8098bd2b250705e1adc0abdf1e22d6e1859d269
 
 ## Project Title
 
-*Give your project a concise, interesting title that summarizes the entirety of your project. (Your title can change on subsequent deliverables.)*
-
+Child Mortality: Global Causes of Death
 
 
 ## Authors
@@ -58,12 +52,26 @@ Autumn 2022
 
 ## Research Questions
 
-*Present your 3-5 research questions. You should present each research question. For each research question, you should discuss why it is important and what motivates the question. (About 50 words for each question, so for four questions you would write about 200 words or more if needed.)*
+1. **What was the most recently recorded leading cause of death globally for children age 0-27 days old in the dataset?**
+
+  *Infants not surviving past the first month of life is one of the saddest things in the world, and is not a problem specific to any one country, but is a major problem around the world.*
+
+2. **Which countries have the highest numbers of deaths for this cause of death and age category? Which countries have the lowest numbers of deaths for this cause of death and age category?**
+
+  *Where is this problem concentrated? Are there any patterns to where the leading cause of death is most likely to strike? Knowing where the problem is occurring could be key to solving the problem itself, just as [John Snow](https://learn.arcgis.com/en/projects/map-a-historic-cholera-outbreak/#:~:text=through%20the%20air.-,Dr.,and%20waste%20systems%20in%20London.) discovered by plotting out cholera deaths in London in 1854.*
+
+3. **How does the world's most recently recorded leading cause of death compare to other global leading causes of death and to other global causes of death in general for this age category?**
+
+  *Is the leading cause of death for infants the only one we should collectively be worrying about and focusing our problem-solving energy and resources on, or is another one **(or many!)** close on its heels? This information could help determine how we might address these problems on a global triage scale.*
+
+4. **For all recorded years in the dataset, which country has the most child deaths from any listed cause for ages 0-4 years old? Which country had the fewest child deaths for the same period and set of causes?**
+
+  *Knowing this could give us perspective on just how much unnecessary and undeserved death has happened over the last number of decades in just one nation, especially when the constraints of the dataset and data collection methods are considered.*
 
 
 ## The Dataset
 
-*(1) Describe how your dataset is related to your problem domain and, specifically, to your research qeustions. That is, how will your dataset enable you to answer your research questions? (2) Include a table that presents the name of each data file, the number of observations (rows), and the number of variables (columns). (3) Include a full citation to each data file, including URL. (4) Finally, describe the provenance of your dataset, addressing such key questions as: (a) Who collected the data? When? For what purpose? (b) How was the data collection effort funded? Who is likely to benefit from the data or make money? (c) How was the data validated and held secure? Is it credible and trustworthy? (d) How did you obtain the data? Do you credit the source of the data? (About 400 words.)*
+*(1) Describe how your dataset is related to your problem domain and, specifically, to your research questions. That is, how will your dataset enable you to answer your research questions? (2) Include a table that presents the name of each data file, the number of observations (rows), and the number of variables (columns). (3) Include a full citation to each data file, including URL. (4) Finally, describe the provenance of your dataset, addressing such key questions as: (a) Who collected the data? When? For what purpose? (b) How was the data collection effort funded? Who is likely to benefit from the data or make money? (c) How was the data validated and held secure? Is it credible and trustworthy? (d) How did you obtain the data? Do you credit the source of the data? (About 400 words.)*
 
 https://apps.who.int/gho/data/node.main.CHILDHEALTHMORT?lang=en
 
