@@ -35,11 +35,14 @@ Autumn 2022
 
 *Write a short abstract of three sentences. Your abstract should summarize your entire project, but only the very most important aspects. Here are two examples of how you might structure your abstract: (1) "Our main question is .... This question is important because .... To address the question, we will ...." and (2) "We are concerned with ..., because .... To address this concern, we plan to ...."*
 
+Our groups main question that needs to be addressed is the curiosity on what  the biggest contributor to the child mortality rates globally is. This question is important because it will hopefully give everyone a better understanding on what is causing children to die, leading to a solution so families are no longer stripped of their loved ones. To address this question, we will look through each and every dataset relating to this problem, to identify the cause of this awful problem.
 
 ## Keywords
 
 *3-5 keywords that summarize your project. (e.g., "Keywords: human physiology; bicycle exercise; elderly; power and heart rate times-series data")*
-
+Children
+Mortality Rates
+Birth Complications
 
 ## Introduction
 
@@ -65,6 +68,7 @@ Autumn 2022
 
 *Proposal only. Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (About 150 words.)*
 
+Expected implications from technologists may include a variety of conclusions drawn from different website and sources that had information on the topic but still had room for interpretation. For designers, when looking at a data set, because they have background knowledge with designing them they may mentally have already filled them out without throughly looking through it. For policymakers, since they obviously make policies, they may interpret them in a different way since their jobs revolve around only policy making.
 
 ## Limitations
 
