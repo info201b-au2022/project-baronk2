@@ -39,8 +39,11 @@ Our groups main question that needs to be addressed is the curiosity on what  th
 ## Keywords
 
 *3-5 keywords that summarize your project. (e.g., "Keywords: human physiology; bicycle exercise; elderly; power and heart rate times-series data")*
+
 Children
+
 Mortality Rates
+
 Birth Complications
 
 ## Introduction
