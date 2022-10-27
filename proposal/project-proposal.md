@@ -32,6 +32,10 @@ Autumn 2022
 
 ## Abstract
 
+- Our main question is what the biggest contributor to child mortality is. 
+- This question is important, because duh
+- TO adress this question we will analyze data collected from WHO
+
 *Write a short abstract of three sentences. Your abstract should summarize your entire project, but only the very most important aspects. Here are two examples of how you might structure your abstract: (1) "Our main question is .... This question is important because .... To address the question, we will ...." and (2) "We are concerned with ..., because .... To address this concern, we plan to ...."*
 
 Our groups main question that needs to be addressed is the curiosity on what  the biggest contributor to the child mortality rates globally is. This question is important because it will hopefully give everyone a better understanding on what is causing children to die, leading to a solution so families are no longer stripped of their loved ones. To address this question, we will look through each and every dataset relating to this problem, to identify the cause of this awful problem.
@@ -48,7 +52,8 @@ Birth Complications
 
 ## Introduction
 
-*Briefly introduce your project. (About 150 words.)*
+For this project we will be creating data visulizations to help answer our
+research questions regarding child mortality. 
 
 For our project we will be looking at child mortality data from different
 countries between the years 2000 to 2017. We will compare the intersectionality
