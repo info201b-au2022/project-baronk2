@@ -158,6 +158,8 @@ results. Another limitation that we will need to take into account is that our
 data sets only go up to 2017. This means our data is old and we will be unable
 to see how the trends have continued or discontinued in more recent years.  
 
+- economic situation, gender, race, etc 
+
 ## Findings
 
 *Not for the project proposal; for final report only. Give answers to each of your research questions. (About 400 words.)*
