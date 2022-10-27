@@ -145,6 +145,10 @@ of age, country, and disease.
 
 Expected implications from technologists may include a variety of conclusions drawn from different website and sources that had information on the topic but still had room for interpretation. For designers, when looking at a data set, because they have background knowledge with designing them they may mentally have already filled them out without throughly looking through it. For policymakers, since they obviously make policies, they may interpret them in a different way since their jobs revolve around only policy making.
 
+- for technologists and designers they could focus more on local or
+  hard-hitting disease 
+- policymakers can better coordinate with internatinol health organizations
+  with funding and resources for certain diseaes on a global scale 
 ## Limitations
 
 *Proposal only. What limitations might you need to address? Briefly discuss. (About 150 words.)*
