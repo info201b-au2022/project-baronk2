@@ -63,6 +63,8 @@ of age, country, and disease.
 
 *Use short sub-sections to describe your topic and the setting (that is, the sociotechnical situation), including project framing, human values, direct and indirect stakeholders, possible harms and benefits. See the Design Brief, section B.3. Note: You must include three citations to related work (URLs to similar work, high quality articles from the popular press, reseach papers, etc. ). You may find it helpful to include a figure. (About 400 words.)*
 
+- human values, people are dying that is not good
+- read some articles first 
 
 ## Research Questions
 
