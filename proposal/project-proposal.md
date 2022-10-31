@@ -54,19 +54,38 @@ WHO :microscope:
 
 ## Introduction
 
-For this project we will be creating data visulizations to help answer our
-research questions regarding child mortality.
-
-For our project we will be looking at child mortality data from different
-countries between the years 2000 to 2017. We will compare the intersectionality
-of age, country, and disease.
+This project was created because we find cild mortality to be a important
+global issue. While much progress has been made over the years to reduce the
+cihld mortality rate, there is still a ways to go. Take the death toll of
+children five and under in 2020 as an example, about five million died
+[(UNICEF, under five
+mortality)](https://data.unicef.org/topic/child-survival/under-five-mortality/).
+Our goal is to analyze and share the intersectionality of age group, country, disease,
+and year of child mortality. In doing so, we hope that people will be better
+equipped to minimize child mortality. 
 
 ## Problem Domain
 
-*Use short sub-sections to describe your topic and the setting (that is, the sociotechnical situation), including project framing, human values, direct and indirect stakeholders, possible harms and benefits. See the Design Brief, section B.3. Note: You must include three citations to related work (URLs to similar work, high quality articles from the popular press, reseach papers, etc. ). You may find it helpful to include a figure. (About 400 words.)*
+### The problem
 
-- human values, people are dying that is not good
-- read some articles first
+Thanks to innovation in medicine and health, the child mortality rates have
+been significantly decreased over the years. There was a 58% decrease in deaths
+of children under the age of five from 1990 to 2019
+[(UNICEF)](https://data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/).
+This drastic decrease is partly thanks to the sustainable development goals for
+neonatal and children under five mortality set by the UN General Assembly back
+in 2015. Their new goals called for all countries to have a neonatal mortality
+rate as low as 12 deaths for every 1000 live births, and for the under five
+years rate to be 25 deaths per 1000 live births, [(Child Survival and the
+SDGs)](https://data.unicef.org/topic/child-survival/child-survival-sdgs/).
+According to UNICEF, "As of 2019, 116 countries have reached the SDG NMR
+[sutainable development goal for neonatal mortality rate] target with 16 on
+track, leaving 63 at risk of missing the target” and “As of 2019, 122 of 195
+countries have achieved the SDG U5MR [Sustainable development goal for children
+under five mortality rate] target, and 20 countries are on track to achieve the
+target by 2030, while 53 will need to accelerate progress to meet the target by
+2030.” [(Global, regional, and natinol trends in under five
+mortality)](https://data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/). Analyzing data on child mortality rates can help countries to continue to stay on track to meet their 2030 sustainable goals, or get onto the right track.
 
 ## Research Questions
 
@@ -151,6 +170,7 @@ Expected implications from technologists may include a variety of conclusions dr
   hard-hitting disease
 - policymakers can better coordinate with internatinol health organizations
   with funding and resources for certain diseaes on a global scale
+
 ## Limitations
 
 *Proposal only. What limitations might you need to address? Briefly discuss. (About 150 words.)*
