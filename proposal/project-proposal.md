@@ -54,9 +54,9 @@ WHO :microscope:
 
 ## Introduction
 
-This project was created because we find cild mortality to be a important
+This project was created because we find child mortality to be a important
 global issue. While much progress has been made over the years to reduce the
-cihld mortality rate, there is still a ways to go. Take the death toll of
+child mortality rate, there is still a ways to go. Take the death toll of
 children five and under in 2020 as an example, about five million died
 [(UNICEF, under five
 mortality)](https://data.unicef.org/topic/child-survival/under-five-mortality/).
@@ -72,11 +72,11 @@ Thanks to innovation in medicine and health, the child mortality rates have
 been significantly decreased over the years. There was a 58% decrease in deaths
 of children under the age of five from 1990 to 2019
 [(UNICEF)](https://data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/).
-This drastic decrease is partly thanks to the sustainable development goals for
-neonatal and children under five mortality set by the UN General Assembly back
+This drastic decrease is partly thanks to the *sustainable development goals for
+neonatal and children under five mortality* set by the UN General Assembly back
 in 2015. Their new goals called for all countries to have a neonatal mortality
 rate as low as 12 deaths for every 1000 live births, and for the under five
-years rate to be 25 deaths per 1000 live births, [(Child Survival and the
+years rate to be 25 deaths per 1000 live births by 2030, [(Child Survival and the
 SDGs)](https://data.unicef.org/topic/child-survival/child-survival-sdgs/).
 According to UNICEF, "As of 2019, 116 countries have reached the SDG NMR
 [sutainable development goal for neonatal mortality rate] target with 16 on
@@ -87,7 +87,20 @@ target by 2030, while 53 will need to accelerate progress to meet the target by
 2030.” [(Global, regional, and natinol trends in under five
 mortality)](https://data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/). Analyzing data on child mortality rates can help countries to continue to stay on track to meet their 2030 sustainable goals, or get onto the right track.
 
+### Human Values
+
+When it comes to human values associated with this project, empathy and advancement come to mind. 
+
+### Stakeholders
+
+The direct stakeholders for the results of this project would be government and UN officials. With more data on child mortality rates, governments and UN would be able to use it to fine tune their policies to bring those rates down. Different countries could focus on diseases most impactful for their reigon, and global organization can focus on the general hard-hitting diseases. The indirect stakeholders would be children, or to be even broader, families. Since the policies that governments or the UN or other global health organizations make could be affected by the findings of this project, the children’s healthcare will be strongly affected by those policies. This makes children/their familes indirectly affected by this project.
+
+### Potential Benefits and Harms
+
+If governments, and the general public, can see which diseases are causing the most child deaths, they can be more effective in splitting resources and time to minimize their child mortality rates. This is a huge benefit as it can contribute to the overall sustainable development goals regarding child mortality and save lives! A potential downside to this is that the vast majority of resources and attention could become focused on only a couple of the more hard-hitting diseases, leaving children suffering from the lesser known diseases in the same or even worse situation as before.
+
 ## Research Questions
+
 
 **1.** **What was the most recently recorded leading cause of death globally for children age 0-27 days old in the dataset?**
 
