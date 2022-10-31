@@ -32,13 +32,13 @@ Autumn 2022
 
 ## Abstract
 
-- Our main question is what the biggest contributor to child mortality is. 
+- Our main question is what the biggest contributor to child mortality is.
 - This question is important, because duh
 - TO adress this question we will analyze data collected from WHO
 
 *Write a short abstract of three sentences. Your abstract should summarize your entire project, but only the very most important aspects. Here are two examples of how you might structure your abstract: (1) "Our main question is .... This question is important because .... To address the question, we will ...." and (2) "We are concerned with ..., because .... To address this concern, we plan to ...."*
 
-Our groups main concern that needs to be addressed relates to the biggest contributor causing global child mortality rates to increase. This concern is very important since it will give everyone a better understanding on what is causing infants to die, hopefully leading to a solution. With a solution,  families will no longer be stripped of their loved ones. To address this concern, we plan on searching through the many different datasets given to us by the World Health Organization (WHO). 
+Our groups main concern that needs to be addressed relates to the biggest contributor causing global child mortality rates to increase. This concern is very important since it will give everyone a better understanding on what is causing infants to die, hopefully leading to a solution. With a solution, families will no longer be stripped of their loved ones. To address this concern, we plan on searching through the many different datasets given to us by the World Health Organization (WHO).
 
 ## Keywords
 
@@ -55,7 +55,7 @@ WHO :microscope:
 ## Introduction
 
 For this project we will be creating data visulizations to help answer our
-research questions regarding child mortality. 
+research questions regarding child mortality.
 
 For our project we will be looking at child mortality data from different
 countries between the years 2000 to 2017. We will compare the intersectionality
@@ -66,7 +66,7 @@ of age, country, and disease.
 *Use short sub-sections to describe your topic and the setting (that is, the sociotechnical situation), including project framing, human values, direct and indirect stakeholders, possible harms and benefits. See the Design Brief, section B.3. Note: You must include three citations to related work (URLs to similar work, high quality articles from the popular press, reseach papers, etc. ). You may find it helpful to include a figure. (About 400 words.)*
 
 - human values, people are dying that is not good
-- read some articles first 
+- read some articles first
 
 ## Research Questions
 
@@ -145,12 +145,9 @@ of age, country, and disease.
 
 *Proposal only. Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (About 150 words.)*
 
-Expected implications from technologists may include a variety of conclusions drawn from different website and sources that had information on the topic but still had room for interpretation. For designers, when looking at a data set, because they have background knowledge with designing them they may mentally have already filled them out without throughly looking through it. For policymakers, since they obviously make policies, they may interpret them in a different way since their jobs revolve around only policy making.
+There are two possible expected implications that will be able to help technologists and policymakers. Throughout our investigation we will be answers very tough questions. Some questions may lead us to a gruesome answer that we may not be ready for since we are focusing on child mortality however, these answers will lead to a safer world. Let’s say we found the answer to our first research question, regarding the highest causes of death in a specific country. By doing this, policymakers could better coordinate with international health organizations with funding and resources for certain diseases. For designers, they are able to create different visuals including diagrams, graphs and charts to spread awareness on the situation so people around the world will be educated, hopefully leading to help. Since technologists is such a broad occupation, they could, spread awareness and fix the problem with the use of coding and focus on more local, hard-hitting problems.
 
-- for technologists and designers they could focus more on local or
-  hard-hitting disease 
-- policymakers can better coordinate with internatinol health organizations
-  with funding and resources for certain diseaes on a global scale 
+
 ## Limitations
 
 *Proposal only. What limitations might you need to address? Briefly discuss. (About 150 words.)*
@@ -160,7 +157,7 @@ results. Another limitation that we will need to take into account is that our
 data sets only go up to 2017. This means our data is old and we will be unable
 to see how the trends have continued or discontinued in more recent years.  
 
-- economic situation, gender, race, etc 
+- economic situation, gender, race, etc
 
 ## Findings
 
