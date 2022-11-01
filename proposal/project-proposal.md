@@ -202,14 +202,28 @@ status are not included.
 
 ## References
 
-“Child Mortality.” UNICEF DATA, 6 Sept. 2022, data.unicef.org/topic/child-survival/under-five-mortality/. 
-“Child Survival and the Sdgs.” UNICEF DATA, 6 Sept. 2022, data.unicef.org/topic/child-survival/child-survival-sdgs/. 
-“Gho | by Category | Number of Deaths by Country - HIV/AIDS.” World Health Organization, World Health Organization, apps.who.int/gho/data/node.main.ChildMortCTRY1002015?lang=en. 
-“How Who Is Funded.” World Health Organization, World Health Organization, www.who.int/about/funding. 
-“Map a Historic Cholera Outbreak.” Learn ArcGIS, learn.arcgis.com/en/projects/map-a-historic-cholera-outbreak/#:~:text=through%20the%20air.-,Dr.,and%20waste%20systems%20in%20London. 
-Nina. “Global, Regional and National Trends in under-5 Mortality between 1990 and 2019 with Scenario-Based Projections until 2030: A Systematic Analysis.” UNICEF DATA, 18 Apr. 2022, data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/. 
-Nina. “Global, Regional and National Trends in under-5 Mortality between 1990 and 2019 with Scenario-Based Projections until 2030: A Systematic Analysis.” UNICEF DATA, 18 Apr. 2022, data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/. 
-“Principles.” World Health Organization, World Health Organization, www.who.int/data/principles. 
+“Child Mortality.” UNICEF DATA, 6 Sept. 2022, \
+data.unicef.org/topic/child-survival/under-five-mortality/. 
+
+“Child Survival and the Sdgs.” UNICEF DATA, 6 Sept. 2022, \ 
+data.unicef.org/topic/child-survival/child-survival-sdgs/. 
+
+“Gho | by Category | Number of Deaths by Country - HIV/AIDS.” World Health Organization, World Health Organization, \ apps.who.int/gho/data/node.main.ChildMortCTRY1002015?lang=en. 
+
+“How Who Is Funded.” World Health Organization, World Health Organization, \
+www.who.int/about/funding. 
+
+“Map a Historic Cholera Outbreak.” Learn ArcGIS, \
+learn.arcgis.com/en/projects/map-a-historic-cholera-outbreak/#:~:text=through%20the%20air.-,Dr.,and%20waste%20systems%20in%20London. 
+
+Nina. “Global, Regional and National Trends in under-5 Mortality between 1990 and 2019 with Scenario-Based Projections until 2030: A Systematic Analysis.” UNICEF DATA, 18 Apr. 2022, \
+data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/. 
+
+Nina. “Global, Regional and National Trends in under-5 Mortality between 1990 and 2019 with Scenario-Based Projections until 2030: A Systematic Analysis.” UNICEF DATA, 18 Apr. 2022, \
+data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/. 
+
+“Principles.” World Health Organization, World Health Organization, \
+www.who.int/data/principles. 
 
 ## Appendix A: Questions
 
