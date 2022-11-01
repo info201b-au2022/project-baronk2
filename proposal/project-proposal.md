@@ -46,10 +46,9 @@ WHO :microscope:
 
 ## Introduction
 
-child mortality rate, there is still a ways to go. Take the death toll of
+This project was created because we find child mortality to be an important global issue. While much progress has been made over the years to reduce the child mortality rate, there is still a ways to go. Take the death toll of
 children five and under in 2020 as an example, about five million died
-[(UNICEF, under five
-mortality)](https://data.unicef.org/topic/child-survival/under-five-mortality/).
+[(UNICEF, under five mortality)](https://data.unicef.org/topic/child-survival/under-five-mortality/).
 Our goal is to analyze and share the intersectionality of age group, country, disease,
 and year of child mortality. In doing so, we hope that people will be better
 equipped to minimize child mortality.
