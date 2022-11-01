@@ -38,10 +38,7 @@ Autumn 2022
 
 ## Abstract
 
-Our group's main concern that needs to be addressed relates to the biggest contributor causing global child mortality rates to increase. This concern is very important since it will give everyone a better understanding on what is causing infants to die, hopefully leading to a solution. With a solution, families will no longer be stripped of their loved ones. To address this concern, we plan on searching through the many different datasets given to us by the World Health Organization (WHO).
-
-
-
+Our groups main concern that needs to be addressed relates to the biggest contributor causing global child mortality rates to increase. This concern is very important since it will give everyone a better understanding on what is causing infants to die, hopefully leading to a solution. With a solution, families will no longer be stripped of their loved ones. To address this concern, we plan on searching through the many different datasets given to us by the World Health Organization (WHO).
 
 ## Keywords
 
@@ -178,18 +175,19 @@ If governments, and the general public, can see which diseases are causing the m
 
 ## Expected Implications
 
-There are two possible expected implications that will be able to help technologists and policymakers. Throughout our investigation we will be answering very tough questions. Some questions may lead us to gruesome answers that we may not be ready for since we are focusing on child mortality, however, these answers will lead to a safer world. Let’s say we found the answer to our first research question, regarding the highest causes of death in a specific country. By doing this, policymakers could better coordinate with international health organizations with funding and resources for certain diseases. For designers, they are able to create different visuals including diagrams, graphs and charts to spread awareness on the situation so people around the world will be educated, hopefully leading to help. Since technologists is such a broad occupation, they could spread awareness and fix the problem with the use of coding and focus on more local, hard-hitting problems.
-
+There are two possible expected implications that will be able to help technologists and policymakers. Throughout our investigation we will be answers very tough questions. Some questions may lead us to a gruesome answers that we may not be ready for since we are focusing on child mortality however, these answers will lead to a safer world. Let’s say we found the answer to our first research question, regarding the highest causes of death in a specific country. By doing this, policymakers could better coordinate with international health organizations with funding and resources for certain diseases. For designers, they are able to create different visuals including diagrams, graphs and charts to spread awareness on the situation so people around the world will be educated, hopefully leading to help. Since technologists is such a broad occupation, they could, spread awareness and fix the problem with the use of coding and focus on more local, hard-hitting problems.
 
 ## Limitations
 
-One of the biggest limitations is the inaccuracy of our data sets. Some
-countries may have inaccurate death tolls, leading to underestimates and skewed
-results. Another limitation that we will need to take into account is that our
+One of the biggest limitations that we will need to take into account, is the
+inaccuracy of our data sets. It is very likely that for many of the countries,
+their death tolls are not accurate. This can lead to skewed results. Another
+limitation that we will need to consider is that our
 data sets only go up to 2017. This means our data is old and we will be unable
-to see how the trends have continued or discontinued in more recent years.  
+to see how the trends have continued or discontinued in more recent years.
+Lastly, the data is not specific. Factors such as race, gender, and economic
+status are not included.    
 
-- Economic situation, gender, race, etc.
 
 ## Findings
 
@@ -258,6 +256,25 @@ Nina. “Global, Regional and National Trends in under-5 Mortality between 1990 
 
 “Principles.” World Health Organization, World Health Organization, https://www.who.int/data/principles.
 
+“Child Survival and the Sdgs.” UNICEF DATA, 6 Sept. 2022, \
+data.unicef.org/topic/child-survival/child-survival-sdgs/.
+
+“Gho | by Category | Number of Deaths by Country - HIV/AIDS.” World Health Organization, World Health Organization, \ apps.who.int/gho/data/node.main.ChildMortCTRY1002015?lang=en.
+
+“How Who Is Funded.” World Health Organization, World Health Organization, \
+www.who.int/about/funding.
+
+“Map a Historic Cholera Outbreak.” Learn ArcGIS, \
+learn.arcgis.com/en/projects/map-a-historic-cholera-outbreak/#:~:text=through%20the%20air.-,Dr.,and%20waste%20systems%20in%20London.
+
+Nina. “Global, Regional and National Trends in under-5 Mortality between 1990 and 2019 with Scenario-Based Projections until 2030: A Systematic Analysis.” UNICEF DATA, 18 Apr. 2022, \
+data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/.
+
+Nina. “Global, Regional and National Trends in under-5 Mortality between 1990 and 2019 with Scenario-Based Projections until 2030: A Systematic Analysis.” UNICEF DATA, 18 Apr. 2022, \
+data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/.
+
+“Principles.” World Health Organization, World Health Organization, \
+www.who.int/data/principles.
 
 ## Appendix A: Questions
 
