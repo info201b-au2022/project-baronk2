@@ -38,7 +38,11 @@ Autumn 2022
 
 *Write a short abstract of three sentences. Your abstract should summarize your entire project, but only the very most important aspects. Here are two examples of how you might structure your abstract: (1) "Our main question is .... This question is important because .... To address the question, we will ...." and (2) "We are concerned with ..., because .... To address this concern, we plan to ...."*
 
+<<<<<<< HEAD
+Our groups main concern that needs to be addressed relates to the biggest contributor causing global child mortality rates to increase. This concern is very important since it will give everyone a better understanding on what is causing infants to die, hopefully leading to a solution. With a solution, families will no longer be stripped of their loved ones. To address this concern, we plan on searching through the many different datasets given to us by the World Health Organization (WHO).
+=======
 Our groups main concern that needs to be addressed relates to the biggest contributor causing global child mortality rates to increase. This concern is very important since it will give everyone a better understanding on what is causing infants to die, hopefully leading to a solution. With a solution,  families will no longer be stripped of their loved ones. To address this concern, we plan on searching through the many different datasets given to us by the World Health Organization (WHO).
+>>>>>>> 081fe24dff491bc732dcfb0255d4d0243a6d036d
 
 ## Keywords
 
@@ -54,6 +58,14 @@ WHO :microscope:
 
 ## Introduction
 
+<<<<<<< HEAD
+For this project we will be creating data visulizations to help answer our
+research questions regarding child mortality.
+
+For our project we will be looking at child mortality data from different
+countries between the years 2000 to 2017. We will compare the intersectionality
+of age, country, and disease.
+=======
 This project was created because we find child mortality to be a important
 global issue. While much progress has been made over the years to reduce the
 child mortality rate, there is still a ways to go. Take the death toll of
@@ -62,7 +74,8 @@ children five and under in 2020 as an example, about five million died
 mortality)](https://data.unicef.org/topic/child-survival/under-five-mortality/).
 Our goal is to analyze and share the intersectionality of age group, country, disease,
 and year of child mortality. In doing so, we hope that people will be better
-equipped to minimize child mortality. 
+equipped to minimize child mortality.
+>>>>>>> 081fe24dff491bc732dcfb0255d4d0243a6d036d
 
 ## Problem Domain
 
@@ -89,15 +102,20 @@ mortality)](https://data.unicef.org/resources/global-regional-and-national-trend
 
 ### Human Values
 
-When it comes to human values associated with this project, empathy and advancement come to mind. 
+When it comes to human values associated with this project, empathy and advancement come to mind.
 
 ### Stakeholders
 
+<<<<<<< HEAD
+- human values, people are dying that is not good
+- read some articles first
+=======
 The direct stakeholders for the results of this project would be government and UN officials. With more data on child mortality rates, governments and UN would be able to use it to fine tune their policies to bring those rates down. Different countries could focus on diseases most impactful for their reigon, and global organization can focus on the general hard-hitting diseases. The indirect stakeholders would be children, or to be even broader, families. Since the policies that governments or the UN or other global health organizations make could be affected by the findings of this project, the children’s healthcare will be strongly affected by those policies. This makes children/their familes indirectly affected by this project.
 
 ### Potential Benefits and Harms
 
 If governments, and the general public, can see which diseases are causing the most child deaths, they can be more effective in splitting resources and time to minimize their child mortality rates. This is a huge benefit as it can contribute to the overall sustainable development goals regarding child mortality and save lives! A potential downside to this is that the vast majority of resources and attention could become focused on only a couple of the more hard-hitting diseases, leaving children suffering from the lesser known diseases in the same or even worse situation as before.
+>>>>>>> 081fe24dff491bc732dcfb0255d4d0243a6d036d
 
 ## Research Questions
 
@@ -177,13 +195,17 @@ If governments, and the general public, can see which diseases are causing the m
 
 *Proposal only. Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (About 150 words.)*
 
-Expected implications from technologists may include a variety of conclusions drawn from different website and sources that had information on the topic but still had room for interpretation. For designers, when looking at a data set, because they have background knowledge with designing them they may mentally have already filled them out without throughly looking through it. For policymakers, since they obviously make policies, they may interpret them in a different way since their jobs revolve around only policy making.
+There are two possible expected implications that will be able to help technologists and policymakers. Throughout our investigation we will be answers very tough questions. Some questions may lead us to a gruesome answers that we may not be ready for since we are focusing on child mortality however, these answers will lead to a safer world. Let’s say we found the answer to our first research question, regarding the highest causes of death in a specific country. By doing this, policymakers could better coordinate with international health organizations with funding and resources for certain diseases. For designers, they are able to create different visuals including diagrams, graphs and charts to spread awareness on the situation so people around the world will be educated, hopefully leading to help. Since technologists is such a broad occupation, they could, spread awareness and fix the problem with the use of coding and focus on more local, hard-hitting problems.
 
+
+<<<<<<< HEAD
+=======
 - for technologists and designers they could focus more on local or
   hard-hitting disease
 - policymakers can better coordinate with internatinol health organizations
   with funding and resources for certain diseaes on a global scale
 
+>>>>>>> 081fe24dff491bc732dcfb0255d4d0243a6d036d
 ## Limitations
 
 One of the biggest limitations that we will need to take into account, is the
