@@ -186,14 +186,15 @@ Expected implications from technologists may include a variety of conclusions dr
 
 ## Limitations
 
-*Proposal only. What limitations might you need to address? Briefly discuss. (About 150 words.)*
-One of the biggests limitations is the inacuracy of our data sets. Some
-conutries may have innacurate death tolls, leading to underestimates and skewed
-results. Another limitation that we will need to take into account is that our
+One of the biggest limitations that we will need to take into account, is the
+inaccuracy of our data sets. It is very likely that for many of the countires,
+their death tolls are not accurate. This can lead to skewed results. Another
+limitation that we will need to consider is that our
 data sets only go up to 2017. This means our data is old and we will be unable
-to see how the trends have continued or discontinued in more recent years.  
+to see how the trends have continued or discontinued in more recent years.
+Lastly, the data is not specific. Factors such as race, gender, and economic
+status are not included.    
 
-- economic situation, gender, race, etc
 
 ## Findings
 
