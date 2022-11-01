@@ -74,7 +74,7 @@ children five and under in 2020 as an example, about five million died
 mortality)](https://data.unicef.org/topic/child-survival/under-five-mortality/).
 Our goal is to analyze and share the intersectionality of age group, country, disease,
 and year of child mortality. In doing so, we hope that people will be better
-equipped to minimize child mortality. 
+equipped to minimize child mortality.
 >>>>>>> 081fe24dff491bc732dcfb0255d4d0243a6d036d
 
 ## Problem Domain
@@ -102,7 +102,7 @@ mortality)](https://data.unicef.org/resources/global-regional-and-national-trend
 
 ### Human Values
 
-When it comes to human values associated with this project, empathy and advancement come to mind. 
+When it comes to human values associated with this project, empathy and advancement come to mind.
 
 ### Stakeholders
 
@@ -195,7 +195,7 @@ If governments, and the general public, can see which diseases are causing the m
 
 *Proposal only. Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (About 150 words.)*
 
-There are two possible expected implications that will be able to help technologists and policymakers. Throughout our investigation we will be answers very tough questions. Some questions may lead us to a gruesome answer that we may not be ready for since we are focusing on child mortality however, these answers will lead to a safer world. Let’s say we found the answer to our first research question, regarding the highest causes of death in a specific country. By doing this, policymakers could better coordinate with international health organizations with funding and resources for certain diseases. For designers, they are able to create different visuals including diagrams, graphs and charts to spread awareness on the situation so people around the world will be educated, hopefully leading to help. Since technologists is such a broad occupation, they could, spread awareness and fix the problem with the use of coding and focus on more local, hard-hitting problems.
+There are two possible expected implications that will be able to help technologists and policymakers. Throughout our investigation we will be answers very tough questions. Some questions may lead us to a gruesome answers that we may not be ready for since we are focusing on child mortality however, these answers will lead to a safer world. Let’s say we found the answer to our first research question, regarding the highest causes of death in a specific country. By doing this, policymakers could better coordinate with international health organizations with funding and resources for certain diseases. For designers, they are able to create different visuals including diagrams, graphs and charts to spread awareness on the situation so people around the world will be educated, hopefully leading to help. Since technologists is such a broad occupation, they could, spread awareness and fix the problem with the use of coding and focus on more local, hard-hitting problems.
 
 
 <<<<<<< HEAD
