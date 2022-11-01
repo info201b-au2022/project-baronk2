@@ -52,7 +52,6 @@ children five and under in 2020 as an example, about five million died
 Our goal is to analyze and share the intersectionality of age group, country, disease,
 and year of child mortality. In doing so, we hope that people will be better
 equipped to minimize child mortality.
->>>>>>> 081fe24dff491bc732dcfb0255d4d0243a6d036d
 
 ## Problem Domain
 
