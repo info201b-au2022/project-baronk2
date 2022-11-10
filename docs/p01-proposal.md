@@ -101,9 +101,9 @@ If governments, and the general public, can see which diseases are causing the m
 
 ## Research Questions
 
-**1.** **What was the most recently recorded leading cause of death globally for children age 0-27 days old in the dataset?**
+**1.** **What was the most recently recorded leading cause of death globally for children age 0-4 years old (Under 5 years old) in the dataset?**
 
-  *Infants not surviving past the first month of life is one of the saddest things in the world, and is not a problem specific to any one country, but is a major problem around the world.*
+  *Young children not surviving past the first five years of life is one of the saddest things in the world, and is not a problem specific to any one country, but is a major problem around the world.*
 
 **2.** **Which countries have the highest numbers of deaths for this cause of death and age category? Which countries have the lowest numbers of deaths for this cause of death and age category?**
 
