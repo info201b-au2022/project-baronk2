@@ -1,0 +1,13 @@
+01-hiv-aids
+02-diarrhoeal-diseases
+03-measles
+04-meningitis-encephalitis
+05-malaria
+06-acute-lower-respiratory-infections
+07-prematurity
+08-birth-asphyxia-and-birth-trauma
+09-sepsis-and-other-infectious-conditions-of-the-newborn
+10-other-communicable--perinatal-and-nutritional-conditions
+11-congenital-anomalies
+12-other-noncommunicable-diseases
+13-injuries
