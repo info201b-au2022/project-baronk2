@@ -12,7 +12,6 @@ Child Mortality: Global Causes of Death
 
 ## Authors
 
-
 Jonathan To- jto9331@uw.edu
 
 Hiba Abbas- hibaa3@uw.edu
@@ -21,8 +20,15 @@ Kevin Baron- baronk2@uw.edu
 
 ## Affiliation
 
-INFO-201B: Technical Foundations of Informatics - The Information School -
-University of Washington - Professor Dave Hendry - TA Ishita Saxena
+University of Washington
+
+The Information School
+
+INFO-201B: Technical Foundations of Informatics
+
+Professor Dave Hendry
+
+TA Ishita Saxena
 
 
 ## Date
@@ -32,7 +38,7 @@ Autumn 2022
 
 ## Abstract
 
-Our groups main concern that needs to be addressed relates to the biggest contributor causing global child mortality rates to increase. This concern is very important since it will give everyone a better understanding on what is causing infants to die, hopefully leading to a solution. With a solution,  families will no longer be stripped of their loved ones. To address this concern, we plan on searching through the many different datasets given to us by the World Health Organization (WHO).
+Our groups main concern that needs to be addressed relates to the biggest contributor causing global child mortality rates to increase. This concern is very important since it will give everyone a better understanding on what is causing infants to die, hopefully leading to a solution. With a solution, families will no longer be stripped of their loved ones. To address this concern, we plan on searching through the many different datasets given to us by the World Health Organization (WHO).
 
 ## Keywords
 
@@ -44,13 +50,18 @@ Global :earth_asia:
 
 WHO :microscope:
 
+
 ## Introduction
 
-This project was created because we find child mortality to be a important global issue. While much progress has been made over the years to reduce the child mortality rate, there is still a ways to go.
-Take the death toll of children five and under in 2020 as an example, about five million died
+This project was created because we find child mortality to be a important
+global issue. While much progress has been made over the years to reduce the
+child mortality rate, there is still a ways to go. Take the death toll of
+children five and under in 2020 as an example, about five million died
 [(UNICEF, under five mortality)](https://data.unicef.org/topic/child-survival/under-five-mortality/).
 Our goal is to analyze and share the intersectionality of age group, country, disease,
-and year of child mortality. In doing so, we hope that people will be better equipped to minimize child mortality.
+and year of child mortality. In doing so, we hope that people will be better
+equipped to minimize child mortality.
+
 
 ## Problem Domain
 
@@ -67,12 +78,12 @@ rate as low as 12 deaths for every 1000 live births, and for the under five
 years rate to be 25 deaths per 1000 live births by 2030, [(Child Survival and the
 SDGs)](https://data.unicef.org/topic/child-survival/child-survival-sdgs/).
 According to UNICEF, "As of 2019, 116 countries have reached the SDG NMR
-[sutainable development goal for neonatal mortality rate] target with 16 on
+[sustainable development goal for neonatal mortality rate] target with 16 on
 track, leaving 63 at risk of missing the target” and “As of 2019, 122 of 195
 countries have achieved the SDG U5MR [Sustainable development goal for children
 under five mortality rate] target, and 20 countries are on track to achieve the
 target by 2030, while 53 will need to accelerate progress to meet the target by
-2030.” [(Global, regional, and natinol trends in under five
+2030.” [(Global, regional, and national trends in under five
 mortality)](https://data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/). Analyzing data on child mortality rates can help countries to continue to stay on track to meet their 2030 sustainable goals, or get onto the right track.
 
 ### Human Values
@@ -81,18 +92,18 @@ When it comes to human values associated with this project, empathy and advancem
 
 ### Stakeholders
 
-The direct stakeholders for the results of this project would be government and UN officials. With more data on child mortality rates, governments and UN would be able to use it to fine tune their policies to bring those rates down. Different countries could focus on diseases most impactful for their reigon, and global organization can focus on the general hard-hitting diseases. The indirect stakeholders would be children, or to be even broader, families. Since the policies that governments or the UN or other global health organizations make could be affected by the findings of this project, the children’s healthcare will be strongly affected by those policies. This makes children/their familes indirectly affected by this project.
+The direct stakeholders for the results of this project would be government and UN officials. With more data on child mortality rates, governments and UN would be able to use it to fine tune their policies to bring those rates down. Different countries could focus on diseases most impactful for their region, and global organization can focus on the general hard-hitting diseases. The indirect stakeholders would be children, or to be even broader, families. Since the policies that governments or the UN or other global health organizations make could be affected by the findings of this project, the children’s healthcare will be strongly affected by those policies. This makes children/their families indirectly affected by this project.
 
 ### Potential Benefits and Harms
 
 If governments, and the general public, can see which diseases are causing the most child deaths, they can be more effective in splitting resources and time to minimize their child mortality rates. This is a huge benefit as it can contribute to the overall sustainable development goals regarding child mortality and save lives! A potential downside to this is that the vast majority of resources and attention could become focused on only a couple of the more hard-hitting diseases, leaving children suffering from the lesser known diseases in the same or even worse situation as before.
 
+
 ## Research Questions
 
+**1.** **What was the most recently recorded leading cause of death globally for children age 0-4 years old (Under 5 years old) in the dataset?**
 
-**1.** **What was the most recently recorded leading cause of death globally for children age 0-27 days old in the dataset?**
-
-  *Infants not surviving past the first month of life is one of the saddest things in the world, and is not a problem specific to any one country, but is a major problem around the world.*
+  *Young children not surviving past the first five years of life is one of the saddest things in the world, and is not a problem specific to any one country, but is a major problem around the world.*
 
 **2.** **Which countries have the highest numbers of deaths for this cause of death and age category? Which countries have the lowest numbers of deaths for this cause of death and age category?**
 
@@ -168,7 +179,7 @@ There are two possible expected implications that will be able to help technolog
 ## Limitations
 
 One of the biggest limitations that we will need to take into account, is the
-inaccuracy of our data sets. It is very likely that for many of the countires,
+inaccuracy of our data sets. It is very likely that for many of the countries,
 their death tolls are not accurate. This can lead to skewed results. Another
 limitation that we will need to consider is that our
 data sets only go up to 2017. This means our data is old and we will be unable
@@ -194,19 +205,75 @@ status are not included.
 
 ## Acknowledgements
 
-*Is there anyone you would like to thank? A librarian who helped you with your research? A Teaching Assistant? A friend who helped you find your data? Say thank you in this section.*
+We would like to thank our Info 201 B professor, Dr. Dave Hendry, for equipping us with the tools and knowledge to access data sources, ask questions about them, and format Markdown reports such as this one.
+
+We would also like to thank our Teaching Assistant Ishita Saxena for helping Professor Hendry to equip us with these tools and knowledge by being hands-on with us in our Tuesday lab section.
 
 
 ## References
 
-“Child Mortality.” UNICEF DATA, 6 Sept. 2022, data.unicef.org/topic/child-survival/under-five-mortality/. 
-“Child Survival and the Sdgs.” UNICEF DATA, 6 Sept. 2022, data.unicef.org/topic/child-survival/child-survival-sdgs/. 
-“Gho | by Category | Number of Deaths by Country - HIV/AIDS.” World Health Organization, World Health Organization, apps.who.int/gho/data/node.main.ChildMortCTRY1002015?lang=en. 
-“How Who Is Funded.” World Health Organization, World Health Organization, www.who.int/about/funding. 
-“Map a Historic Cholera Outbreak.” Learn ArcGIS, learn.arcgis.com/en/projects/map-a-historic-cholera-outbreak/#:~:text=through%20the%20air.-,Dr.,and%20waste%20systems%20in%20London. 
-Nina. “Global, Regional and National Trends in under-5 Mortality between 1990 and 2019 with Scenario-Based Projections until 2030: A Systematic Analysis.” UNICEF DATA, 18 Apr. 2022, data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/. 
-Nina. “Global, Regional and National Trends in under-5 Mortality between 1990 and 2019 with Scenario-Based Projections until 2030: A Systematic Analysis.” UNICEF DATA, 18 Apr. 2022, data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/. 
-“Principles.” World Health Organization, World Health Organization, www.who.int/data/principles. 
+Works Cited
+
+“About WHO.” World Health Organization, World Health Organization, https://www.who.int/about.
+
+“Child Mortality and Causes of Death.” World Health Organization, World Health Organization, https://www.who.int/data/gho/data/themes/topics/topic-details/GHO/child-mortality-and-causes-of-death.
+
+“Child Mortality.” UNICEF DATA, 6 Sept. 2022, https://data.unicef.org/topic/child-survival/under-five-mortality/.
+
+“Child Survival and the Sdgs.” UNICEF DATA, 6 Sept. 2022, https://data.unicef.org/topic/child-survival/child-survival-sdgs/.
+
+“Gho | by Category | Number of Deaths by Country - Acute Lower Respiratory Infections.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/view.main.ghe1002015-CH9?lang=en.
+
+“Gho | by Category | Number of Deaths by Country - Birth Asphyxia and Birth Trauma.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/view.main.ghe1002015-CH11?lang=en.
+
+“Gho | by Category | Number of Deaths by Country - Congenital Anomalies.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/view.main.ghe1002015-CH15?lang=en.
+
+“Gho | by Category | Number of Deaths by Country - Diarrhoeal Diseases.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/view.main.ghe1002015-CH3?lang=en.
+
+“Gho | by Category | Number of Deaths by Country - HIV/AIDS.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/node.main.ChildMortCTRY1002015?lang=en.
+
+“Gho | by Category | Number of Deaths by Country - Injuries.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/view.main.ghe1002015-CH17?lang=en.
+
+“Gho | by Category | Number of Deaths by Country - Malaria.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/view.main.ghe1002015-CH8?lang=en.
+
+“Gho | by Category | Number of Deaths by Country - Measles.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/view.main.ghe1002015-CH6?lang=en.
+
+“Gho | by Category | Number of Deaths by Country - Meningitis/Encephalitis.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/view.main.ghe1002015-CH7?lang=en.
+
+“Gho | by Category | Number of Deaths by Country - Other Communicable, Perinatal and Nutritional Conditions.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/view.main.ghe1002015-CH13?lang=en.
+
+“Gho | by Category | Number of Deaths by Country - Other Noncommunicable Diseases.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/view.main.ghe1002015-CH16?lang=en.
+
+“Gho | by Category | Number of Deaths by Country - Prematurity.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/view.main.ghe1002015-CH10?lang=en.
+
+“Gho | by Category | Number of Deaths by Country - Sepsis and Other Infectious Conditions of the Newborn.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/view.main.ghe1002015-CH12?lang=en.
+
+“How Who Is Funded.” World Health Organization, World Health Organization, https://www.who.int/about/funding.
+“Map a Historic Cholera Outbreak.” Learn ArcGIS, https://learn.arcgis.com/en/projects/map-a-historic-cholera-outbreak/#:~:text=through%20the%20air.-,Dr.,and%20waste%20systems%20in%20London.
+
+Nina. “Global, Regional and National Trends in under-5 Mortality between 1990 and 2019 with Scenario-Based Projections until 2030: A Systematic Analysis.” UNICEF DATA, 18 Apr. 2022, https://data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/.
+
+“Principles.” World Health Organization, World Health Organization, https://www.who.int/data/principles.
+
+“Child Survival and the Sdgs.” UNICEF DATA, 6 Sept. 2022, \
+data.unicef.org/topic/child-survival/child-survival-sdgs/.
+
+“Gho | by Category | Number of Deaths by Country - HIV/AIDS.” World Health Organization, World Health Organization, \ apps.who.int/gho/data/node.main.ChildMortCTRY1002015?lang=en.
+
+“How Who Is Funded.” World Health Organization, World Health Organization, \
+www.who.int/about/funding.
+
+“Map a Historic Cholera Outbreak.” Learn ArcGIS, \
+learn.arcgis.com/en/projects/map-a-historic-cholera-outbreak/#:~:text=through%20the%20air.-,Dr.,and%20waste%20systems%20in%20London.
+
+Nina. “Global, Regional and National Trends in under-5 Mortality between 1990 and 2019 with Scenario-Based Projections until 2030: A Systematic Analysis.” UNICEF DATA, 18 Apr. 2022, \
+data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/.
+
+Nina. “Global, Regional and National Trends in under-5 Mortality between 1990 and 2019 with Scenario-Based Projections until 2030: A Systematic Analysis.” UNICEF DATA, 18 Apr. 2022, \
+data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/.
+
+“Principles.” World Health Organization, World Health Organization, \
+www.who.int/data/principles.
 
 ## Appendix A: Questions
 
