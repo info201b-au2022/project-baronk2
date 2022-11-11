@@ -42,7 +42,6 @@ measles_table <- measles_data %>%
   select(-YEAR..DISPLAY., -AGEGROUP..DISPLAY., -Display.Value) %>%
   distinct(total_deaths)
 
-View(measles_table)
 
 # wrangle 04-meningitis-encephalitis.csv
 meningitis_data <- read.csv("~/Documents/info201/project-baronk2/data/04-meningitis-encephalitis.csv")
@@ -58,7 +57,6 @@ meningitis_table <- meningitis_data %>%
   select(-YEAR..DISPLAY., -AGEGROUP..DISPLAY., -Display.Value) %>%
   distinct(total_deaths)
 
-View(meningitis_table)
 
 # wrangle 05-malaria.csv
 malaria_data <- read.csv("~/Documents/info201/project-baronk2/data/05-malaria.csv")
@@ -74,7 +72,6 @@ malaria_table <- malaria_data %>%
   select(-YEAR..DISPLAY., -AGEGROUP..DISPLAY., -Display.Value) %>%
   distinct(total_deaths)
 
-View(malaria_table)
 
 # wrangle 06-acute-lower-respiratory-infections.csv
 respiratory_infections_data <- read.csv("~/Documents/info201/project-baronk2/data/06-acute-lower-respiratory-infections.csv")
@@ -90,7 +87,6 @@ respiratory_infections_table <- respiratory_infections_data %>%
   select(-YEAR..DISPLAY., -AGEGROUP..DISPLAY., -Display.Value) %>%
   distinct(total_deaths)
 
-View(respiratory_infections_table)  
 
 # wrangle 07-prematurity.csv
 prematurity_data <- read.csv("~/Documents/info201/project-baronk2/data/07-prematurity.csv")
@@ -106,7 +102,6 @@ prematurity_table <- prematurity_data %>%
   select(-YEAR..DISPLAY., -AGEGROUP..DISPLAY., -Display.Value) %>%
   distinct(total_deaths)
 
-View(prematurity_table) 
 
 # wrangle 08-birth-asphyxia-and-birth-trauma.csv
 birth_asphyxia_trauma_data <- read.csv("~/Documents/info201/project-baronk2/data/08-birth-asphyxia-and-birth-trauma.csv")
@@ -122,7 +117,6 @@ birth_asphyxia_trauma_table <- birth_asphyxia_trauma_data %>%
   select(-YEAR..DISPLAY., -AGEGROUP..DISPLAY., -Display.Value) %>%
   distinct(total_deaths)
 
-View(birth_asphyxia_trauma_table) 
 
 # wrangle 09-sepsis-and-other-infectious-conditions-of-the-newborn.csv
 sepsis_data <- read.csv("~/Documents/info201/project-baronk2/data/09-sepsis-and-other-infectious-conditions-of-the-newborn.csv")
@@ -138,7 +132,6 @@ sepsis_table <- sepsis_data %>%
   select(-YEAR..DISPLAY., -AGEGROUP..DISPLAY., -Display.Value) %>%
   distinct(total_deaths)
 
-View(sepsis_table) 
 
 # wrangle 10-other-communicable--perinatal-and-nutritional-conditions.csv
 other_communicable_data <- read.csv("~/Documents/info201/project-baronk2/data/10-other-communicable--perinatal-and-nutritional-conditions.csv")
@@ -154,7 +147,6 @@ other_communicable_table <- other_communicable_data %>%
   select(-YEAR..DISPLAY., -AGEGROUP..DISPLAY., -Display.Value) %>%
   distinct(total_deaths)
 
-View(other_communicable_table) 
 
 # wrangle 11-congenital-anomalies.csv
 congenital_anomalies_data <- read.csv("~/Documents/info201/project-baronk2/data/11-congenital-anomalies.csv")
@@ -170,7 +162,6 @@ congenital_anomalies_table <- congenital_anomalies_data %>%
   select(-YEAR..DISPLAY., -AGEGROUP..DISPLAY., -Display.Value) %>%
   distinct(total_deaths)
 
-View(congenital_anomalies_table) 
 
 # wrangle 12-other-noncommunicable-diseases.csv
 other_noncommunicable_data <- read.csv("~/Documents/info201/project-baronk2/data/12-other-noncommunicable-diseases.csv")
@@ -186,7 +177,6 @@ other_noncommunicable_table <- other_noncommunicable_data %>%
   select(-YEAR..DISPLAY., -AGEGROUP..DISPLAY., -Display.Value) %>%
   distinct(total_deaths)
 
-View(other_noncommunicable_table) 
 
 # wrangle 13-injuries.csv
 injuries_data <- read.csv("~/Documents/info201/project-baronk2/data/13-injuries.csv")
@@ -202,6 +192,23 @@ injuries_table <- injuries_data %>%
   select(-YEAR..DISPLAY., -AGEGROUP..DISPLAY., -Display.Value) %>%
   distinct(total_deaths)
 
-View(injuries_table) 
 
-  
+# aggregated table
+
+aggregated_table <- data.frame(
+  country = hiv_aids_table$COUNTRY..DISPLAY.,
+  hiv_aids = hiv_aids_table$total_deaths, 
+  diarrhoeal_diseases = diarrhoeal_table$total_deaths,
+  measles = measles_table$total_deaths,
+  meningitis = meningitis_table$total_deaths, 
+  malaria = malaria_table$total_deaths,
+  acute_lower_respiratory_infections = respiratory_infections_table$total_deaths,
+  prematurity = prematurity_table$total_deaths,
+  birth_asphyxia_trauma=birth_asphyxia_trauma_table$total_deaths,
+  sepsis = sepsis_table$total_deaths,
+  other_communicable_diseases = other_communicable_table$total_deaths,
+  congenital_anomalies = congenital_anomalies_table$total_deaths, 
+  other_noncommunicable_diseases = other_noncommunicable_table$total_deaths,
+  injuries = injuries_table$total_deaths 
+)
+
