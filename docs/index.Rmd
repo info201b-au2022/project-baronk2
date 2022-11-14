@@ -52,3 +52,18 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Chart 2
+
+Here is a pi chart showcasing the amount of deaths for each of the 13 causes in 2017.
+
+```{r echo=FALSE, message=FALSE}
+source("../source/chart_2.R")
+
+ ggplot(deaths_in_2017, aes(x="", y=deaths, fill=cause)) +
+  geom_bar(stat="identity", width=1, color="black") +
+  coord_polar("y", start=0) +
+  
+  theme_void()
+
+```
