@@ -7,6 +7,7 @@ library(ggplot2)
 # re-calculate everything for only the year 2017
 
 # HIV and AIDS
+hiv_aids_data <- read.csv("~/Documents/info201/project-baronk2/data/01-hiv-aids.csv")
 hiv_aids_recent <- hiv_aids_data %>%
   select(-GHO..CODE., -GHO..DISPLAY., -GHO..URL., -PUBLISHSTATE..CODE.,
          -PUBLISHSTATE..DISPLAY., -PUBLISHSTATE..URL., -YEAR..CODE., -YEAR..URL., 
@@ -17,6 +18,7 @@ hiv_aids_recent <- hiv_aids_data %>%
   summarise(total_deaths = sum(Display.Value))
 
 # diarrhoeal diseases data 
+diarrhoeal_data <- read.csv("~/Documents/info201/project-baronk2/data/02-diarrhoeal-diseases.csv")
 diarrhoeal_recent <- diarrhoeal_data %>%
   select(-GHO..CODE., -GHO..DISPLAY., -GHO..URL., -PUBLISHSTATE..CODE.,
          -PUBLISHSTATE..DISPLAY., -PUBLISHSTATE..URL., -YEAR..CODE., -YEAR..URL., 
@@ -27,6 +29,7 @@ diarrhoeal_recent <- diarrhoeal_data %>%
   summarise(total_deaths = sum(Display.Value))
 
 # measles data
+measles_data <- read.csv("~/Documents/info201/project-baronk2/data/03-measles.csv")
 measles_recent <- measles_data %>%
   select(-GHO..CODE., -GHO..DISPLAY., -GHO..URL., -PUBLISHSTATE..CODE.,
          -PUBLISHSTATE..DISPLAY., -PUBLISHSTATE..URL., -YEAR..CODE., -YEAR..URL., 
@@ -37,6 +40,7 @@ measles_recent <- measles_data %>%
   summarise(total_deaths = sum(Display.Value))
 
 # meningitis-encephalitis
+meningitis_data <- read.csv("~/Documents/info201/project-baronk2/data/04-meningitis-encephalitis.csv")
 meningitis_recent <- meningitis_data %>%
   select(-GHO..CODE., -GHO..DISPLAY., -GHO..URL., -PUBLISHSTATE..CODE.,
          -PUBLISHSTATE..DISPLAY., -PUBLISHSTATE..URL., -YEAR..CODE., -YEAR..URL., 
@@ -47,6 +51,7 @@ meningitis_recent <- meningitis_data %>%
   summarise(total_deaths = sum(Display.Value))
 
 # malaria
+malaria_data <- read.csv("~/Documents/info201/project-baronk2/data/05-malaria.csv")
 malaria_recent <- malaria_data %>%
   select(-GHO..CODE., -GHO..DISPLAY., -GHO..URL., -PUBLISHSTATE..CODE.,
          -PUBLISHSTATE..DISPLAY., -PUBLISHSTATE..URL., -YEAR..CODE., -YEAR..URL., 
@@ -57,6 +62,7 @@ malaria_recent <- malaria_data %>%
   summarise(total_deaths = sum(Display.Value))
 
 # acute-lower-respiratory-infections
+respiratory_infections_data <- read.csv("~/Documents/info201/project-baronk2/data/06-acute-lower-respiratory-infections.csv")
 respiratory_infections_recent <- respiratory_infections_data %>%
   select(-GHO..CODE., -GHO..DISPLAY., -GHO..URL., -PUBLISHSTATE..CODE.,
          -PUBLISHSTATE..DISPLAY., -PUBLISHSTATE..URL., -YEAR..CODE., -YEAR..URL., 
@@ -67,6 +73,7 @@ respiratory_infections_recent <- respiratory_infections_data %>%
   summarise(total_deaths = sum(Display.Value))
 
 # prematurity
+prematurity_data <- read.csv("~/Documents/info201/project-baronk2/data/07-prematurity.csv")
 prematurity_recent <- prematurity_data %>%
   select(-GHO..CODE., -GHO..DISPLAY., -GHO..URL., -PUBLISHSTATE..CODE.,
          -PUBLISHSTATE..DISPLAY., -PUBLISHSTATE..URL., -YEAR..CODE., -YEAR..URL., 
@@ -77,6 +84,7 @@ prematurity_recent <- prematurity_data %>%
   summarise(total_deaths = sum(Display.Value))
 
 # birth_asphyxia_trauma
+birth_asphyxia_trauma_data <- read.csv("~/Documents/info201/project-baronk2/data/08-birth-asphyxia-and-birth-trauma.csv")
 birth_asphyxia_trauma_recent <- birth_asphyxia_trauma_data %>%
   select(-GHO..CODE., -GHO..DISPLAY., -GHO..URL., -PUBLISHSTATE..CODE.,
          -PUBLISHSTATE..DISPLAY., -PUBLISHSTATE..URL., -YEAR..CODE., -YEAR..URL., 
@@ -87,6 +95,7 @@ birth_asphyxia_trauma_recent <- birth_asphyxia_trauma_data %>%
   summarise(total_deaths = sum(Display.Value))
 
 # sepsis
+sepsis_data <- read.csv("~/Documents/info201/project-baronk2/data/09-sepsis-and-other-infectious-conditions-of-the-newborn.csv")
 sepsis_recent <- sepsis_data %>%
   select(-GHO..CODE., -GHO..DISPLAY., -GHO..URL., -PUBLISHSTATE..CODE.,
          -PUBLISHSTATE..DISPLAY., -PUBLISHSTATE..URL., -YEAR..CODE., -YEAR..URL., 
@@ -97,6 +106,7 @@ sepsis_recent <- sepsis_data %>%
   summarise(total_deaths = sum(Display.Value))
 
 # other_communicable_diseases
+other_communicable_data <- read.csv("~/Documents/info201/project-baronk2/data/10-other-communicable--perinatal-and-nutritional-conditions.csv")
 other_communicable_recent <- other_communicable_data %>%
   select(-GHO..CODE., -GHO..DISPLAY., -GHO..URL., -PUBLISHSTATE..CODE.,
          -PUBLISHSTATE..DISPLAY., -PUBLISHSTATE..URL., -YEAR..CODE., -YEAR..URL., 
@@ -107,6 +117,7 @@ other_communicable_recent <- other_communicable_data %>%
   summarise(total_deaths = sum(Display.Value))
 
 # congenital_anomalies
+congenital_anomalies_data <- read.csv("~/Documents/info201/project-baronk2/data/11-congenital-anomalies.csv")
 congenital_anomalies_recent <- congenital_anomalies_data %>%
   select(-GHO..CODE., -GHO..DISPLAY., -GHO..URL., -PUBLISHSTATE..CODE.,
          -PUBLISHSTATE..DISPLAY., -PUBLISHSTATE..URL., -YEAR..CODE., -YEAR..URL., 
@@ -117,6 +128,8 @@ congenital_anomalies_recent <- congenital_anomalies_data %>%
   summarise(total_deaths = sum(Display.Value))
 
 # other_noncommunicable
+other_noncommunicable_data <- read.csv("~/Documents/info201/project-baronk2/data/12-other-noncommunicable-diseases.csv")
+
 other_noncommunicable_recent <- other_noncommunicable_data %>%
   select(-GHO..CODE., -GHO..DISPLAY., -GHO..URL., -PUBLISHSTATE..CODE.,
          -PUBLISHSTATE..DISPLAY., -PUBLISHSTATE..URL., -YEAR..CODE., -YEAR..URL., 
@@ -127,6 +140,7 @@ other_noncommunicable_recent <- other_noncommunicable_data %>%
   summarise(total_deaths = sum(Display.Value))
 
 # injuries
+injuries_data <- read.csv("~/Documents/info201/project-baronk2/data/13-injuries.csv")
 injuries_recent <- injuries_data %>%
   select(-GHO..CODE., -GHO..DISPLAY., -GHO..URL., -PUBLISHSTATE..CODE.,
          -PUBLISHSTATE..DISPLAY., -PUBLISHSTATE..URL., -YEAR..CODE., -YEAR..URL., 
@@ -151,8 +165,4 @@ deaths <- c(hiv_aids_recent, diarrhoeal_recent, measles_recent, meningitis_recen
 deaths_in_2017 <- data.frame(cause, deaths)
 
 #pi chart
-ggplot(deaths_in_2017, aes(x="", y=deaths, fill=cause)) +
-  geom_bar(stat="identity", width=1, color="black") +
-  coord_polar("y", start=0) +
-  
-  theme_void()
+
