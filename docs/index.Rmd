@@ -53,6 +53,11 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
+## Dynamic Paragraph
+
+```
+Most recently recorded leading cause of death for children 0-4 years old is Acute lower respiratory infection, resulting in 22,972,323 deaths. On the other hand, the disease causing the least number of deaths is Meningitis with 4,185,463 infant deaths. When looking at Acute lower respiratory infection, the country leading this death toll is India with a numerical value of 141,970. Fortunately, there were countries such as Andorra, Cook Islands, Cyprus, and San Marino with zero deaths. When further looking into Meningitis the least threating disease, the country with the highest death toll was Nigeria with 25397 deaths. 
+```
 ## Chart 2
 
 Here is a pi chart showcasing the amount of deaths for each of the 13 causes in 2017.
@@ -67,3 +72,21 @@ source("../source/chart_2.R")
   theme_void()
 
 ```
+
+## Chart 3
+
+Here is a bar chart showcasing the correlation between the 13 causes of infant deaths and number of deaths in 2017.
+
+library(ggplot2)
+
+```
+data <- data.frame(
+  Diseases=c("HIV/AIDS","Diarrhoeal","Measles","Meningitis","Malaria","Respiratory","Prematurity","Birth Asphyxia","Sepsis","Nutritional","Congenital","Other diseases","Injuries") ,  
+  Deaths=c(2951383,13548674,4331460,4185463,8714325,22424319,20972323,15838560,7699710,11486173,9430762,5214289,6923513)
+)
+
+p<-ggplot(data, aes(x=Diseases, y=Deaths, fill=Diseases)) +
+  geom_bar(stat="identity") 
+p
+```
+
