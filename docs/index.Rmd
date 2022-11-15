@@ -79,7 +79,7 @@ Here is a bar chart showcasing the correlation between the 13 causes of infant d
 
 library(ggplot2)
 
-```
+```{r echo=FALSE, message=FALSE}
 data <- data.frame(
   Diseases=c("HIV/AIDS","Diarrhoeal","Measles","Meningitis","Malaria","Respiratory","Prematurity","Birth Asphyxia","Sepsis","Nutritional","Congenital","Other diseases","Injuries") ,  
   Deaths=c(2951383,13548674,4331460,4185463,8714325,22424319,20972323,15838560,7699710,11486173,9430762,5214289,6923513)
