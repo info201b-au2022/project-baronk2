@@ -53,9 +53,8 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-## Dynamic Paragraph
 
-```
+```{Dynamic Paragraph}
 Most recently recorded leading cause of death for children 0-4 years old is Acute lower respiratory infection, resulting in 22,972,323 deaths. On the other hand, the disease causing the least number of deaths is Meningitis with 4,185,463 infant deaths. When looking at Acute lower respiratory infection, the country leading this death toll is India with a numerical value of 141,970. Fortunately, there were countries such as Andorra, Cook Islands, Cyprus, and San Marino with zero deaths. When further looking into Meningitis the least threating disease, the country with the highest death toll was Nigeria with 25397 deaths. 
 ```
 ## Chart 2
