@@ -15,11 +15,6 @@ get_data <- function() {
   return(all_causes)
   }
 
-all_causes_1 <- get_data()
-
-
-View(all_causes_1)
-
 # Returns a dataframe of shape files for each country, joined with deaths data
 get_world_shape_df <- function() {
 
@@ -53,7 +48,7 @@ get_world_shape_df <- function() {
                             "Viet Nam" = "Vietnam",
                             "Republic of Moldova" = "Moldova",
                             "Czechia" = "Czech Republic",
-                            "Côte d'Ivoire" = "Ivory Coast",
+                            "CC4te d'Ivoire" = "Ivory Coast",
                             "Congo" = "Republic of Congo",
                             "United Republic of Tanzania" = "Tanzania",
                             "Democratic People's Republic of Korea" = "North Korea",
@@ -63,7 +58,7 @@ get_world_shape_df <- function() {
                             "Bolivia (Plurinational State of)" = "Bolivia",
                             "Venezuela (Bolivarian Republic of)" = "Venezuela",
                             "Iran (Islamic Republic of)" = "Iran",
-                            "Türkiye" = "Turkey",
+                            "TC<rkiye" = "Turkey",
                             "Russian Federation" = "Russia",
                             "United States of America" = "USA"
                             )
