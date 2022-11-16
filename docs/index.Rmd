@@ -14,41 +14,42 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ```{r}
-# source("../source/aggregated_table.R")
-# source("../source/dynamic_paragraph_stats.R")
+source("../source/aggregated_table.R")
+source("../source/dynamic_paragraph_stats.R")
 # source("../source/chart_1.R")
-# source("../source/chart_2.R")
+source("../source/chart_2.R")
 source("../source/map-chart-3.R")
 ```
 
 
 ## Aggregated Table
 
-<!-- ```{r table, echo = FALSE}  -->
-<!--   aggregated_table -->
-<!-- ```  -->
+```{r table, echo = FALSE}
+  aggregated_table
+```
 
 
 
 ## Dynamic Paragraph
 
-<!-- ```{r, echo = FALSE} -->
+```{r, echo = FALSE}
 
-<!-- most_recent_leading_cause <-  get_most_recent_leading_cause() -->
+most_recent_leading_cause <-  get_most_recent_leading_cause()
 
-<!-- most_recent_leading_cause_total_deaths  <-  get_most_recent_leading_cause_total_deaths() -->
+most_recent_leading_cause_total_deaths  <-  get_most_recent_leading_cause_total_deaths()
 
-<!-- most_recent_trailing_cause <- get_most_recent_trailing_cause() -->
+most_recent_trailing_cause <- get_most_recent_trailing_cause()
 
-<!-- most_recent_trailing_cause_total_deaths <-  get_most_recent_trailing_cause_total_deaths() -->
+most_recent_trailing_cause_total_deaths <-  get_most_recent_trailing_cause_total_deaths()
 
-<!-- most_recent_leading_cause_leading_country <-  get_most_recent_leading_cause_leading_country() -->
+most_recent_leading_cause_leading_country <-  get_most_recent_leading_cause_leading_country()
 
-<!-- most_recent_leading_cause_leading_country_deaths <-  get_most_recent_leading_cause_leading_country_deaths() -->
+most_recent_leading_cause_leading_country_deaths <-  get_most_recent_leading_cause_leading_country_deaths()
 
-<!-- ``` -->
+```
 
-
+The most recently recorded leading cause of death for children 0-4 years old is
+`r most_recent_leading_cause`, resulting in `r prettyNum(most_recent_leading_cause_total_deaths, big.mark = ",")` deaths. On the other hand, the disease causing the least number of deaths is `r most_recent_trailing_cause` with `r prettyNum(most_recent_trailing_cause_total_deaths, big.mark = ",")` child deaths. When looking at `r most_recent_leading_cause`, the country leading this death toll is `r most_recent_leading_cause_leading_country` with a numerical value of `r prettyNum(most_recent_leading_cause_leading_country_deaths, big.mark = ",")`.
 
 
 
@@ -74,16 +75,16 @@ Here is a bar chart showcasing the correlation between the 13 causes of infant d
 
 Here is a pi chart showcasing the amount of deaths for each of the 13 causes in 2017.
 
-<!-- ```{r echo=FALSE, message=FALSE} -->
-<!-- source("https://raw.github.com/info201b-au2022/project-baronk2/main/source/chart_2.R") -->
+```{r echo=FALSE, message=FALSE}
+source("https://raw.github.com/info201b-au2022/project-baronk2/main/source/chart_2.R")
 
-<!--   ggplot(deaths_in_test, aes(x="", y=deaths, fill=cause)) + -->
-<!--     geom_bar(stat="identity", width=1, color="black") + -->
-<!--     coord_polar("y", start=0) + -->
+  ggplot(deaths_in_test, aes(x="", y=deaths, fill=cause)) +
+    geom_bar(stat="identity", width=1, color="black") +
+    coord_polar("y", start=0) +
 
-<!--     theme_void() -->
+    theme_void()
 
-<!-- ``` -->
+```
 
 
 ## Chart 3
@@ -93,5 +94,7 @@ Here is a map showing where there have been the most child deaths globally from
 
 ```{r echo=FALSE, message=FALSE}
 get_deaths_map()
-get_deaths_map_paragraph()
+deaths_map_paragraph <- get_deaths_map_paragraph()
 ```
+
+`r deaths_map_paragraph`

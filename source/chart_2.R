@@ -4,7 +4,6 @@ library(dplyr)
 library(ggplot2)
 
 
-# re-calculate everything for only the year 2017
 
 cause <- c("HIV/AIDS", "Diarrhoeal Diseases", "Measles", "Meningitis", "Malaria", "Respiratory Infections",
            "Prematurity", "Birth Asphyxia Trauma", "Sepsis", "Other Communicable Diseases", "Congenital Anomalies",
@@ -49,14 +48,16 @@ other_noncommunicable_diseases_deaths <- aggregated_table %>%
 
 injuries_deaths <- aggregated_table %>%
   summarise(total_injuries = sum(injuries))
+
+deaths <- c(hiv_aids_deaths, diarrhoeal_deaths, measles_deaths, meningitis_deaths, malaria_deaths,
+            acute_lower_respiratory_infections_deaths, prematurity_deaths, birth_asphyxia_trauma_deaths,
+            sepsis_deaths, other_communicable_diseases_deaths, congenital_anomalies_deaths,
+            other_noncommunicable_diseases_deaths, injuries_deaths)
+
 deaths_in_test <- data.frame(
   cause,
-  deaths = c(hiv_aids_deaths, diarrhoeal_deaths, measles_deaths, meningitis_deaths, malaria_deaths,
-             acute_lower_respiratory_infections_deaths, prematurity_deaths, birth_asphyxia_trauma_deaths,
-             sepsis_deaths, other_communicable_diseases_deaths, congenital_anomalies_deaths,
-             other_noncommunicable_diseases_deaths, injuries_deaths)
+  deaths
 )
-
 
 
 
