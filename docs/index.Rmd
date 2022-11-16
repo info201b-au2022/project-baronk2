@@ -97,4 +97,3 @@ Here is a map showing where there have been the most child deaths globally from
 <!-- get_deaths_map() -->
 <!-- get_deaths_map_paragraph() -->
 <!-- ``` -->
-
