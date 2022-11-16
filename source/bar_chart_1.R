@@ -61,7 +61,7 @@ acute_data <- all_disease %>%
 print(acute_data)
 
 acute_table <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-baronk2/main/data/06-acute-lower-respiratory-infections.csv"
-table
+
           
 premature_data <- all_disease %>%
   filter(AGEGROUP..DISPLAY. == "0-4 years") %>%
@@ -113,18 +113,17 @@ injuries_data <- all_disease %>%
   summarise(Display.Value = sum(Display.Value))
 print(injuries_data)
 
+```{r echo=FALSE, message=FALSE}
 library(ggplot2)
-# bar plot
-
 # Create data
 data <- data.frame(
   Diseases=c("HIV/AIDS","Diarrhoeal","Measles","Meningitis","Malaria","Respiratory","Prematurity","Birth Asphyxia","Sepsis","Nutritional","Congenital","Other diseases","Injuries") ,  
   Deaths=c(2951383,13548674,4331460,4185463,8714325,22424319,20972323,15838560,7699710,11486173,9430762,5214289,6923513)
 )
-
 # Barplot
 
 p<-ggplot(data, aes(x=Diseases, y=Deaths, fill=Diseases)) +
-  geom_bar(stat="identity") 
+  geom_bar(stat="identity", width = 0.5) 
 p
+```
 
