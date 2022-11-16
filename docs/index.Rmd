@@ -71,6 +71,7 @@ p<-ggplot(data, aes(x=Diseases, y=Deaths, fill=Diseases)) +
 p
 ```
 
+Chart 1, represents the 13 different diseases that lead the world in deaths within children ages 0-4. Having this chart gives a visualization of how  big of an impact each disease has had on the death toll. The diseases can be seen on the x-axis, whereas, the number of deaths can be seen on the y-axis. Having a bar chart allows viewers to easily identify which disease has made the most impact on child mortaility. 
 
 ## Chart 2
 
