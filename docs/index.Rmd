@@ -59,20 +59,11 @@ Here is a bar chart showcasing the correlation between the 13 causes of infant d
 
 
 ```{r echo=FALSE, message=FALSE}
-library(ggplot2)
-# Create data
-data <- data.frame(
-  Diseases=c("HIV/AIDS","Diarrhoeal","Measles","Meningitis","Malaria","Respiratory","Prematurity","Birth Asphyxia","Sepsis","Nutritional","Congenital","Other diseases","Injuries") ,  
-  Deaths=c(2951383,13548674,4331460,4185463,8714325,22424319,20972323,15838560,7699710,11486173,9430762,5214289,6923513)
-)
-# Barplot
-
-p<-ggplot(data, aes(x=Diseases, y=Deaths, fill=Diseases)) +
-  geom_bar(stat="identity", width = 0.5) 
+p <- get_bar_chart()
 p
 ```
 
-Chart 1, represents the 13 different diseases that lead the world in deaths within children ages 0-4. Having this chart gives a visualization of how  big of an impact each disease has had on the death toll. The diseases can be seen on the x-axis, whereas, the number of deaths can be seen on the y-axis. Having a bar chart allows viewers to easily identify which disease has made the most impact on child mortaility. 
+Chart 1, represents the 13 different diseases that lead the world in deaths within children ages 0-4. Having this chart gives a visualization of how  big of an impact each disease has had on the death toll. The diseases can be seen on the x-axis, whereas, the number of deaths can be seen on the y-axis. Having a bar chart allows viewers to easily identify which disease has made the most impact on child mortality. 
 
 ## Chart 2
 
@@ -88,6 +79,8 @@ source("https://raw.github.com/info201b-au2022/project-baronk2/main/source/chart
     theme_void()
 
 ```
+
+This chart is important as it shows the viewer how much of an impact different causes have had on child mortality from 2000 to 2017. It gives an easy visual representation of how much of the whole a certain cause makes up, letting viewers know with a glance which causes are more pressing than others.
 
 
 ## Chart 3

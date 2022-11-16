@@ -13,7 +13,7 @@ get_data <- function() {
   all_causes <- read.csv("https://raw.github.com/info201b-au2022/project-baronk2/main/data/00-all-causes.csv")
   
   return(all_causes)
-  }
+}
 
 # Returns a dataframe of shape files for each country, joined with deaths data
 get_world_shape_df <- function() {
@@ -48,7 +48,7 @@ get_world_shape_df <- function() {
                             "Viet Nam" = "Vietnam",
                             "Republic of Moldova" = "Moldova",
                             "Czechia" = "Czech Republic",
-                            "CC4te d'Ivoire" = "Ivory Coast",
+                            "Côte d'Ivoire" = "Ivory Coast",
                             "Congo" = "Republic of Congo",
                             "United Republic of Tanzania" = "Tanzania",
                             "Democratic People's Republic of Korea" = "North Korea",
@@ -58,7 +58,7 @@ get_world_shape_df <- function() {
                             "Bolivia (Plurinational State of)" = "Bolivia",
                             "Venezuela (Bolivarian Republic of)" = "Venezuela",
                             "Iran (Islamic Republic of)" = "Iran",
-                            "TC<rkiye" = "Turkey",
+                            "Türkiye" = "Turkey",
                             "Russian Federation" = "Russia",
                             "United States of America" = "USA"
                             )
@@ -120,3 +120,4 @@ get_deaths_map_paragraph <- function() {
   return(paragraph)
   
 }
+
