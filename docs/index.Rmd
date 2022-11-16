@@ -13,10 +13,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-```{r}
+```{r echo = FALSE, message=FALSE}
 source("../source/aggregated_table.R")
 source("../source/dynamic_paragraph_stats.R")
-# source("../source/chart_1.R")
+source("../source/bar_chart_1.R")
 source("../source/chart_2.R")
 source("../source/map-chart-3.R")
 ```
@@ -24,15 +24,15 @@ source("../source/map-chart-3.R")
 
 ## Aggregated Table
 
-```{r table, echo = FALSE}
-  aggregated_table
+```{r table, echo = FALSE, message=FALSE}
+  knitr::kable(aggregated_table, format="html")
 ```
 
 
 
 ## Dynamic Paragraph
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, message=FALSE}
 
 most_recent_leading_cause <-  get_most_recent_leading_cause()
 
@@ -59,15 +59,17 @@ Here is a bar chart showcasing the correlation between the 13 causes of infant d
 
 
 ```{r echo=FALSE, message=FALSE}
-# library(ggplot2)
-# data <- data.frame(
-#   Diseases=c("HIV/AIDS","Diarrhoeal","Measles","Meningitis","Malaria","Respiratory","Prematurity","Birth Asphyxia","Sepsis","Nutritional","Congenital","Other diseases","Injuries") ,  
-#   Deaths=c(2951383,13548674,4331460,4185463,8714325,22424319,20972323,15838560,7699710,11486173,9430762,5214289,6923513)
-# )
-# 
-# p<-ggplot(data, aes(x=Diseases, y=Deaths, fill=Diseases)) +
-#   geom_bar(stat="identity") 
-# p
+library(ggplot2)
+# Create data
+data <- data.frame(
+  Diseases=c("HIV/AIDS","Diarrhoeal","Measles","Meningitis","Malaria","Respiratory","Prematurity","Birth Asphyxia","Sepsis","Nutritional","Congenital","Other diseases","Injuries") ,  
+  Deaths=c(2951383,13548674,4331460,4185463,8714325,22424319,20972323,15838560,7699710,11486173,9430762,5214289,6923513)
+)
+# Barplot
+
+p<-ggplot(data, aes(x=Diseases, y=Deaths, fill=Diseases)) +
+  geom_bar(stat="identity", width = 0.5) 
+p
 ```
 
 
