@@ -122,28 +122,28 @@ If governments, and the general public, can see which diseases are causing the m
 
 **1.** The dataset outlines the problem domain. There are thirteen dataframes, each listing a different cause of death for children in three different age categories: 0-27 days, 1-59 months, and 0-4 years, which represents the total for the first two age categories. Each dataframe has total deaths for each year from 2000 to 2017 for every country of the world. By filtering and totaling appropriate rows and columns of certain dataframes, and by creating our own dataframes from combinations of the original ones, we should be able to answer the Research Questions.
 
-  **2.** [See following *Data Files* table]
+  **2.** [See following *Data Files* pseudotable]
 
-  **3.** [See following *Data Files* table]
+  **3.** [See following *Data Files* pseudotable]
 
 
   **Data Files**
 
-  |Name                       | Observations | Variables | Reference |
-  |---------------------------|--------------|-----------| ----------|
-  |01. HIV/AIDS | 10,476 | 14 | https://apps.who.int/gho/data/node.main.ChildMortCTRY1002015?lang=en |
-  |02. Diarrhoeal diseases | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH3?lang=en |
-  |03. Measles | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH6?lang=en |
-  |04. Meningitis/encephalitis | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH7?lang=en |
-  |05. Malaria | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH8?lang=en |
-  |06. Acute lower respiratory infections | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH9?lang=en |
-  |07. Prematurity | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH10?lang=en |
-  |08. Birth asphyxia and birth trauma | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH11?lang=en |
-  |09. Sepsis and other infectious conditions of the newborn | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH12?lang=en |
-  |10. Other communicable, perinatal and nutritional conditions | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH13?lang=en |
-  |11. Congenital anomalies | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH15?lang=en |
-  |12. Other noncommunicable diseases | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH16?lang=en |
-  |13. Injuries | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH17?lang=en |
+|Name                       | Observations | Variables | Reference |
+|---------------------------|--------------|-----------| ----------|
+|01. HIV/AIDS | 10,476 | 14 | https://apps.who.int/gho/data/node.main.ChildMortCTRY1002015?lang=en |
+|02. Diarrhoeal diseases | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH3?lang=en |
+|03. Measles | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH6?lang=en |
+|04. Meningitis/encephalitis | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH7?lang=en |
+|05. Malaria | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH8?lang=en |
+|06. Acute lower respiratory infections | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH9?lang=en |
+|07. Prematurity | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH10?lang=en |
+|08. Birth asphyxia and birth trauma | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH11?lang=en |
+|09. Sepsis and other infectious conditions of the newborn | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH12?lang=en |
+|10. Other communicable, perinatal and nutritional conditions | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH13?lang=en |
+|11. Congenital anomalies | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH15?lang=en |
+|12. Other noncommunicable diseases | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH16?lang=en |
+|13. Injuries | 10,476 | 14 | https://apps.who.int/gho/data/view.main.ghe1002015-CH17?lang=en |
 
 **4.** **a.** The World Health Organization ([WHO](https://www.who.int/about)), "the United Nations agency that connects nations, partners and people to promote health, keep the world safe and serve the vulnerable – so everyone, everywhere can attain the highest level of health,"  compiled the data from sources like "civil registration and vital statistic systems (CRVS), health management information systems (HMIS) as well as specific country-wide monitoring systems," based on its description of how it compiles data for a similar issue of COVID-19 more specifically from an article about [Child mortality and causes of death](https://www.who.int/data/gho/data/themes/topics/topic-details/GHO/child-mortality-and-causes-of-death) on its website. The data is for years 2000 to 2017, and was last updated on November 27, 2018.
 
