@@ -1,4 +1,4 @@
-# *Child Mortality: Global Causes of Death* Proposal
+# *Child Mortality: Global Causes of Death* Report
 
 ## Code Name
 
@@ -172,11 +172,29 @@ If governments, and the general public, can see which diseases are causing the m
 
    https://apps.who.int/gho/data/node.main.ChildMortCTRY1002015?lang=en
 
-## Expected Implications
+## Findings
+
+*For final report only. Give answers to each of your research questions. (About 400 words.)*
+
+***The line above is directly from the rubric. The following line is from Dave's skeleton as advice in the Findings section, but it seems like it would be better prompting advice for how to write the Discussion section. Then again, there is some recyclable material we can use for the Discussion section already, so maybe it makes more sense to use this prompt extension to help with the word count in this Findings section. Here is the prompt extension:***
+
+*Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers.*
+
+## Discussion
+
+*For final report only. Discuss importance and/or implications of your findings (About 400 words.)*
+
+***We were required to write an Expected Implications and a Limitations section for the proposal, but are not supposed to include them in the final report. "Importance and/or implications" listed above indicates that we can recycle some of this material into the Discussion section. It is included below, without the section headers formatted. We could just remove those old section headers ("Expected Implications" and "Limitations") for this Discussion section, change some of the wording, like "...two possible expected implications that will..." to just "...two implications that will..." and add a few sentences tying it in with the findings and general importance. Here are the old sections:***
+
+
+
+Expected Implications
 
 There are two possible expected implications that will be able to help technologists and policymakers. Throughout our investigation we will be answers very tough questions. Some questions may lead us to a gruesome answers that we may not be ready for since we are focusing on child mortality however, these answers will lead to a safer world. Let’s say we found the answer to our first research question, regarding the highest causes of death in a specific country. By doing this, policymakers could better coordinate with international health organizations with funding and resources for certain diseases. For designers, they are able to create different visuals including diagrams, graphs and charts to spread awareness on the situation so people around the world will be educated, hopefully leading to help. Since technologists is such a broad occupation, they could, spread awareness and fix the problem with the use of coding and focus on more local, hard-hitting problems.
 
-## Limitations
+
+
+Limitations
 
 One of the biggest limitations that we will need to take into account, is the
 inaccuracy of our data sets. It is very likely that for many of the countries,
@@ -185,22 +203,13 @@ limitation that we will need to consider is that our
 data sets only go up to 2017. This means our data is old and we will be unable
 to see how the trends have continued or discontinued in more recent years.
 Lastly, the data is not specific. Factors such as race, gender, and economic
-status are not included.    
+status are not included.
 
-
-## Findings
-
-*Not for the project proposal; for final report only. Give answers to each of your research questions. (About 400 words.)*
-
-
-## Discussion
-
-*Not for the project proposal; for final report only. Discuss importance and/or implications of your findings (About 400 words.)*
 
 
 ## Conclusion
 
-*Not for the project proposal; for final report only. Give the reader a summary point, the key point that you will like your audience to leave with. (About 400 words.)*
+*For final report only. Give the reader a summary point, the key point that you will like your audience to leave with. (About 400 words.)*
 
 
 ## Acknowledgements
