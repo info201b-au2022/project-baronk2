@@ -24,7 +24,7 @@ hiv_data <- all_disease %>%
   select(Display.Value) %>%
   summarise(Display.Value = sum(Display.Value))
 print(hiv_data)
-
+View(hiv_data)
 Diarrhoeal_data <- all_disease %>%
   filter(AGEGROUP..DISPLAY. == "0-4 years") %>%
   filter(CHILDCAUSE..DISPLAY. == "Diarrhoeal diseases") %>%
