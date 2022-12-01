@@ -122,9 +122,9 @@ If governments, and the general public, can see which diseases are causing the m
 
 **1.** The dataset outlines the problem domain. There are thirteen dataframes, each listing a different cause of death for children in three different age categories: 0-27 days, 1-59 months, and 0-4 years, which represents the total for the first two age categories. Each dataframe has total deaths for each year from 2000 to 2017 for every country of the world. By filtering and totaling appropriate rows and columns of certain dataframes, and by creating our own dataframes from combinations of the original ones, we should be able to answer the Research Questions.
 
-  **2.** [See following *Data Files* pseudotable]
+  **2.** [See following *Data Files* table]
 
-  **3.** [See following *Data Files* pseudotable]
+  **3.** [See following *Data Files* table]
 
 
   **Data Files**
