@@ -4,6 +4,7 @@ library(dplyr)
 library(ggplot2)
 
 
+
 cause <- c("HIV/AIDS", "Diarrhoeal Diseases", "Measles", "Meningitis", "Malaria", "Respiratory Infections",
            "Prematurity", "Birth Asphyxia Trauma", "Sepsis", "Other Communicable Diseases", "Congenital Anomalies",
            "Other Noncommunicable Diseases", "Injuries")

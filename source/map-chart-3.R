@@ -13,12 +13,7 @@ get_data <- function() {
   all_causes <- read.csv("https://raw.github.com/info201b-au2022/project-baronk2/main/data/00-all-causes.csv")
   
   return(all_causes)
-  }
-
-all_causes_1 <- get_data()
-
-
-View(all_causes_1)
+}
 
 # Returns a dataframe of shape files for each country, joined with deaths data
 get_world_shape_df <- function() {
@@ -125,3 +120,4 @@ get_deaths_map_paragraph <- function() {
   return(paragraph)
   
 }
+
