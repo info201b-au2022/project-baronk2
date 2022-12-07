@@ -14,14 +14,10 @@ hiv_data <- all_disease %>%
   filter(YEAR..DISPLAY. == 2017) %>%
   select(Display.Value) %>%
   summarise(Display.Value = sum(Display.Value))
-<<<<<<< HEAD
+
 print(hiv_data)
 View(hiv_data)
-=======
 
-
-
->>>>>>> 6c2ad96681d3278f13332aad7893319a2c909dc9
 Diarrhoeal_data <- all_disease %>%
   filter(AGEGROUP..DISPLAY. == "0-4 years") %>%
   filter(CHILDCAUSE..DISPLAY. == "Diarrhoeal diseases") %>%

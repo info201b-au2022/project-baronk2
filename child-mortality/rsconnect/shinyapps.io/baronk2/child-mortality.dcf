@@ -1,0 +1,13 @@
+name: child-mortality
+title: child-mortality
+username:
+account: baronk2
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7766122
+bundleId: 6569789
+url: https://baronk2.shinyapps.io/child-mortality/
+when: 1669764372.23203
+lastSyncTime: 1669764372.23205
+asMultiple: FALSE
+asStatic: FALSE
