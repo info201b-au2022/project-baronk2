@@ -16,6 +16,11 @@ source("tabs/tab_panel_summary.R")
 source("tabs/tab_panel_report.R")
 
 ui <- navbarPage(
+  tags$style(
+    "h2, h3 {
+      font-family: sans-serif;
+    }"
+  ),
   title = "Child Mortality: Global Causes of Death",
   position = "fixed-top",
 
