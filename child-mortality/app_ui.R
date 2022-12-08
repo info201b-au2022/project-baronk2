@@ -24,7 +24,6 @@ ui <- navbarPage(
     tags$style(type = "text/css", "body {padding-top: 70px;}"),
     hr(),
     HTML(""),
-    # HTML("... Project Header... "),
     hr()
   ),
 
@@ -33,7 +32,6 @@ ui <- navbarPage(
     tags$style(type = "text/css", "body {padding-top: 70px;}"),
     hr(),
     HTML(""),
-    # HTML("... Project Footer ... "),
     hr()
   ),
 

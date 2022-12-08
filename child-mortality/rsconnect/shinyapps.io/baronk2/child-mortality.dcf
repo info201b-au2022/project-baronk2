@@ -5,9 +5,9 @@ account: baronk2
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7766122
-bundleId: 6569789
+bundleId: 6611696
 url: https://baronk2.shinyapps.io/child-mortality/
-when: 1669764372.23203
-lastSyncTime: 1669764372.23205
+when: 1670525121.02864
+lastSyncTime: 1670525121.02865
 asMultiple: FALSE
 asStatic: FALSE

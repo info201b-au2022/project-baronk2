@@ -42,13 +42,13 @@ Our group's main concern that needs to be addressed relates to the biggest contr
 
 ## Keywords
 
-Infant Diseases :mask:
+Infant Diseases
 
-Mortality :skull:
+Mortality
 
-Global :earth_asia:
+Global
 
-WHO :microscope:
+WHO
 
 
 ## Introduction
@@ -101,15 +101,15 @@ If governments, and the general public, can see which diseases are causing the m
 
 ## Research Questions
 
-**1.** **What was the most recently recorded leading cause of death globally for children age 0-4 years old (Under 5 years old) in the dataset?**
+**1.** **What was the most recently recorded annual (2017) leading cause of death globally for children age 0-4 years old (Under 5 years old) in the dataset?**
 
   *Young children not surviving past the first five years of life is one of the saddest things in the world, and is not a problem specific to any one country, but is a major problem around the world.*
 
-**2.** **Which countries have the highest numbers of deaths for this cause of death and age category? Which countries have the lowest numbers of deaths for this cause of death and age category?**
+**2.** **Which countries have the highest numbers of deaths for this cause of death, age category, and year? Which countries have the lowest numbers of deaths for this cause of death, age category, and year?**
 
   *Where is this problem concentrated? Are there any patterns to where the leading cause of death is most likely to strike? Knowing where the problem is occurring could be key to solving the problem itself, just as [John Snow](https://learn.arcgis.com/en/projects/map-a-historic-cholera-outbreak/#:~:text=through%20the%20air.-,Dr.,and%20waste%20systems%20in%20London.) discovered by plotting out cholera deaths in London in 1854.*
 
-**3.** **How does the world's most recently recorded leading cause of death compare to other global leading causes of death and to other global causes of death in general for this age category?**
+**3.** **How does the world's most recently recorded annual (2017) leading cause of death compare to other global leading causes of death and to other global causes of death in general for this age category and year?**
 
   *Is the leading cause of death for infants the only one we should collectively be worrying about and focusing our problem-solving energy and resources on, or is another one **(or many!)** close on its heels? This information could help determine how we might address these problems on a global triage scale.*
 
@@ -262,8 +262,6 @@ Works Cited
 
 Nina. “Global, Regional and National Trends in under-5 Mortality between 1990 and 2019 with Scenario-Based Projections until 2030: A Systematic Analysis.” UNICEF DATA, 18 Apr. 2022, https://data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/.
 
-“Principles.” World Health Organization, World Health Organization, https://www.who.int/data/principles.
-
 “Child Survival and the Sdgs.” UNICEF DATA, 6 Sept. 2022, \
 data.unicef.org/topic/child-survival/child-survival-sdgs/.
 
@@ -281,15 +279,8 @@ data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortali
 Nina. “Global, Regional and National Trends in under-5 Mortality between 1990 and 2019 with Scenario-Based Projections until 2030: A Systematic Analysis.” UNICEF DATA, 18 Apr. 2022, \
 data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/.
 
-“Principles.” World Health Organization, World Health Organization, \
-www.who.int/data/principles.
+“Preterm Birth.” World Health Organization, World Health Organization, 14 Nov. 2022, https://www.who.int/news-room/fact-sheets/detail/preterm-birth.
 
-## Appendix A: Questions
+“Principles.” World Health Organization, World Health Organization, https://www.who.int/data/principles.
 
-*Do you have questions for your TA or instructor? Include them here.*
-
-
-
-
-
-
+“United Nations Millennium Development Goals.” United Nations, United Nations, https://www.un.org/millenniumgoals/childhealth.shtml.

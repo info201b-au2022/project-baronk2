@@ -17,13 +17,17 @@ library("ggiraph")
 library("RColorBrewer")
 
 
+# Read in data for pie chart and map functions to use
+
+all_causes <- read.csv(
+  "./data/00-all-causes.csv"
+)
 
 
 # function to build data frame for pie chart
 build_pi_data_frame <- function(year) {
   #read data
-  all_causes <- read.csv("https://raw.github.com/info201b-au2022/project-baronk2/main/data/00-all-causes.csv")
-  # View(all_causes)
+
   #build data frame
   pi_data_frame <- all_causes %>%
     filter(YEAR..CODE. == year, AGEGROUP..DISPLAY. == "0-4 years") %>%
@@ -35,15 +39,19 @@ build_pi_data_frame <- function(year) {
 }
 
 
+
+# Dataframe variables and functions to build interactive map
+
+
 # Read in data from WHO (previously stored to repo file)
 # Remove any geographic entities that don't have ISO codes
 # Select relevant data
 
-
 all_causes_relevant <-
-  read.csv(
-    "./data/00-all-causes.csv"
-  ) %>% 
+  # read.csv(
+  #   "./data/00-all-causes.csv"
+  # ) %>%
+  all_causes %>% 
   select(
     YEAR..CODE.,
     COUNTRY..DISPLAY.,
@@ -326,7 +334,10 @@ server <- function(input, output) {
     pi_plot <- plot_ly(pi_data, labels = ~cause, values = ~total, type = 'pie') 
     
     pi_plot <- pi_plot %>% layout(
-      title = "Deaths in Year",
+      title = paste0(
+        "Child Deaths in ",
+        year
+      ),
       xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
       yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
     
