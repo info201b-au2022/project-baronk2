@@ -348,11 +348,6 @@ server <- function(input, output) {
   
   
   
-  
-  
-  
-  
-  
   # Section for any Map server elements to avoid merge conflicts
   
   
@@ -371,19 +366,7 @@ server <- function(input, output) {
     })
   
   
-  
-  
-  
-  
-  
-  
-  # Section for any other server elements to avoid merge conflicts
-  
-  
-  
-  
-  
-  
+
   
   
 }

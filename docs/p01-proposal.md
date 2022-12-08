@@ -101,7 +101,7 @@ If governments, and the general public, can see which diseases are causing the m
 
 ## Research Questions
 
-**1.** **What was the most recently recorded leading cause of death globally for children age 0-4 years old (Under 5 years old) in the dataset?**
+**1.** **What was the most recently recorded annual (2017) leading cause of death globally for children age 0-4 years old (Under 5 years old) in the dataset?**
 
   *Young children not surviving past the first five years of life is one of the saddest things in the world, and is not a problem specific to any one country, but is a major problem around the world.*
 
@@ -109,7 +109,7 @@ If governments, and the general public, can see which diseases are causing the m
 
   *Where is this problem concentrated? Are there any patterns to where the leading cause of death is most likely to strike? Knowing where the problem is occurring could be key to solving the problem itself, just as [John Snow](https://learn.arcgis.com/en/projects/map-a-historic-cholera-outbreak/#:~:text=through%20the%20air.-,Dr.,and%20waste%20systems%20in%20London.) discovered by plotting out cholera deaths in London in 1854.*
 
-**3.** **How does the world's most recently recorded leading cause of death compare to other global leading causes of death and to other global causes of death in general for this age category?**
+**3.** **How does the world's most recently recorded annual (2017) leading cause of death compare to other global leading causes of death and to other global causes of death in general for this age category?**
 
   *Is the leading cause of death for infants the only one we should collectively be worrying about and focusing our problem-solving energy and resources on, or is another one **(or many!)** close on its heels? This information could help determine how we might address these problems on a global triage scale.*
 
@@ -190,17 +190,41 @@ status are not included.
 
 ## Findings
 
-*Not for the project proposal; for final report only. Give answers to each of your research questions. (About 400 words.)*
+When looking at our four in-depth research questions, there is a great deal of data that needed to be searched through to answer them. Thankfully, with the power of teamwork and many hours of analyzing datasets, we were able to answer each question we came up with.
+
+To start things off, let’s look at our first question, “What was the most recently recorded leading cause of death globally for children ages 0-4 years old (Under 5 years old) in the dataset?”. In this case, Prematurity caused the most amount of deaths in children under 5. This answer would help provide stakeholders such as parents, healthcare providers and the Government an idea on what disease they need to prioritize a cure for.
+
+Moving on to the second question, “Which countries have the highest numbers of deaths for this cause of death and age category? Which countries have the lowest numbers of deaths for this cause of death and age category?”. By finding the answer to the countries with the least number of deaths, which in this case was the Crook Islands, Monaco, Niue, and San Marino with 0 deaths. The Government and healthcare can see what the 0 death countries are doing differently compared to countries with high numbers of death in prematurity such as *India with 284,000 deaths*, *Pakistan with 91,000 deaths* and *Nigeria with 84,000 deaths* and implement changes to lower every country death toll.
+
+For the third question, “How does the world's most recently recorded leading cause of death compare to other global leading causes of death and to other global causes of death in general for this age category?”. In this case, Acute lower respiratory infection causing 800,000 deaths and Birth asphyxia and birth trauma with 670,000 deaths were the second and third leaders of child mortality in recent years. Having this answer will give researchers and healthcare providers an idea on what diseases they need to find cures for or make the survival rate higher. Having this information can also lead to researchers to identify different patterns between each disease to see if there is a similarity that they can knock out at the same time.
+
+Finally, answering the fourth question, “For all recorded years in the dataset, which country has the most child deaths from any listed cause for ages 0-4 years old? Which country had the fewest child deaths for the same period and set of causes?”, will give stakeholders a better idea on what countries they need to support heavily in healthcare to decrease their numbers to make all countries similar in low rates of death. Through the dataset provided by WHO, we were able to see that India was the country with the highest death toll with **30,556,631 deaths** in children under 5 and Niue was the country with the fewest deaths with only 0 deaths.
+
+In summary, all these findings from the dataset are crucial data that needs to be referenced back to when making plans on lowering the total death count from diseases in all countries around the world.
 
 
 ## Discussion
 
-*Not for the project proposal; for final report only. Discuss importance and/or implications of your findings (About 400 words.)*
+When looking at the importance of possible expected implications that will help technologists and policymakers, we have found two we want to highlight. Throughout our investigation we will need to answer very tough questions. Some questions will lead us to gruesome answers that might make our stomach churn however, these answers will point us to a **safer world**, with child mortality rates at an all-time low.
+
+Let’s say we found the answer to our first research question, regarding the highest causes of death in a specific country. Now let’s say, for example it was maybe “HIV/AIDS” causing the most deaths. By finding out the main cause of death, policymakers could better coordinate with international health organizations with funding and resources for this certain disease. This could drastically decrease deaths and make a safer world in general.
+
+Another reason why our findings will be important can be seen through our fourth question, asking about the country with the most deaths and which country has the least number of deaths. This is an important question to ask, since possible solutions can be extracted from the country with the least amount of deaths that can be __translated__ and used in other countries with higher death counts.
+
+In general, when looking at the expected implications of all the findings above, designers can create different visuals including diagrams, graphs, and charts to spread awareness on the situation so people around the world will be educated, hopefully leading to a solution. In addition, technologists is such a broad occupation, meaning they could spread awareness and fix the problem with the use of coding, UX/UI design and focus on more local, hard-hitting problems based on the findings in the dataset.
+
+On the other hand, when looking at implications, one most look at the limitations as well. One of the biggest limitations that we will need to take into account, is the inaccuracy of our data sets. It is very likely that for many of the countries, their death tolls are not accurate. This can lead to skewed results. Another limitation that we will need to consider is that our data sets only go up to 2017. This means our data is old and we will be unable to see how the trends have continued or discontinued in more recent years. Lastly, the data is not specific. Factors such as race, gender, and economic status are not included.
 
 
 ## Conclusion
 
-*Not for the project proposal; for final report only. Give the reader a summary point, the key point that you will like your audience to leave with. (About 400 words.)*
+Child mortality is the opposite of a light topic, it is a very sensitive subject for many and negatively effects the world in numerous ways. However, by creating a report and sharing information on the different causes of morality in children, stakeholders such as the government, healthcare providers, and parents can strive to decrease this rate.
+
+When looking at the causes of child mortality, they mostly relate back to different diseases including, HIV/AIDS, diarrheal diseases, measles, meningitis, malaria, acute lower respiratory infection, prematurity, birth asphyxia and birth trauma, sepsis, and many more. Obviously, the number of deaths in each country will differ with each disease but for the most part, through our findings, we were able to narrow down the main contributor to the child death rate. This contributor is the acute lower respiratory infection which has taken over 22 million lives this past 30 years in children ages 0-4. **22 million lives in 30 years** is no joke. That is about 666,666 deaths per year just from **ONE** disease.
+
+From this data, it is now obvious how crucial it is to pay attention to the diseases and try to find cures or even remedies on how to recover from these illnesses. However, it isn’t as easy as it seems. Finding cures depend on a country’s income, if they are wealthy and have good healthcare, they obviously have an advantage compared to lower income countries. This can be seen through the data set and our findings. Countries such as the United States has plenty of deaths in children but since they have such good healthcare, their ratio of deaths to population is far less than a low-income country. A solution that could help resolve this problem, is providing good health care globally so not one country is suffering by itself.
+
+All in all, child mortality is an issue everyone should be made aware about. Through our report I hope that you have gained new knowledge on what causes these poor children to die, so you can spread the word and think of possible solutions on how to combat these brutal diseases. Again, one key point we want to illiterate is that everyone around the globe should be working together to combat these diseases since child mortality is causing problems in all families worldwide. We are all stronger together!
 
 
 ## Acknowledgements
@@ -253,8 +277,6 @@ Works Cited
 
 Nina. “Global, Regional and National Trends in under-5 Mortality between 1990 and 2019 with Scenario-Based Projections until 2030: A Systematic Analysis.” UNICEF DATA, 18 Apr. 2022, https://data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/.
 
-“Principles.” World Health Organization, World Health Organization, https://www.who.int/data/principles.
-
 “Child Survival and the Sdgs.” UNICEF DATA, 6 Sept. 2022, \
 data.unicef.org/topic/child-survival/child-survival-sdgs/.
 
@@ -272,9 +294,8 @@ data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortali
 Nina. “Global, Regional and National Trends in under-5 Mortality between 1990 and 2019 with Scenario-Based Projections until 2030: A Systematic Analysis.” UNICEF DATA, 18 Apr. 2022, \
 data.unicef.org/resources/global-regional-and-national-trends-in-under-5-mortality-between-1990-and-2019/.
 
-“Principles.” World Health Organization, World Health Organization, \
-www.who.int/data/principles.
+“Preterm Birth.” World Health Organization, World Health Organization, 14 Nov. 2022, https://www.who.int/news-room/fact-sheets/detail/preterm-birth.
 
-## Appendix A: Questions
+“Principles.” World Health Organization, World Health Organization, https://www.who.int/data/principles.
 
-*Do you have questions for your TA or instructor? Include them here.*
+“United Nations Millennium Development Goals.” United Nations, United Nations, https://www.un.org/millenniumgoals/childhealth.shtml.

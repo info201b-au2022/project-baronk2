@@ -21,30 +21,16 @@ tab_panel_pie_chart <-tabPanel(
       
       #plot goes here
       mainPanel(
-        h2("Distribution of Child Mortality Causes"),
-        br(),
+        h3("Child Deaths (0-5 Years) by Cause"),
         plotlyOutput(outputId = "pi_chart"),
         br(),
         br(),
-        h3("Why This Chart?"),
-        p(
-          paste0(
-            "This chart was included for many important reasons. It is important ",
-            "to see how the different causes of death for children under 5 years old ",
-            "fit in with one another for a given year as a percentage of total ",
-            "global child deaths. It also shows how the leading cause of ",
-            "death changes from year to year, and what sort of margin that change ",
-            "in leading cause takes. Different years from "
-          ),
-          a(
-            "The WHO's dataset",
-            href = "https://www.who.int/data/gho/data/themes/topics/topic-details/GHO/child-mortality-and-causes-of-death"
-          ),
-          paste0(
-            " can be selected and you can hover over the graphic to see how ",
-            "many global deaths the percentages equate to."
+        p("This pie chart shows global deaths of children five and under for thirteen different causes by year.",
+          "It provides a clear visual of what causes are behind the majority of deaths, and which are not",
+          "as pressing. Users can see how the pie chart changes over the years by selecting another year,
+          and they can see the exact number of deaths from a specific cause by hovering over its portion 
+          in the pie graph. " 
           )
-        )
       )
     )
 )
