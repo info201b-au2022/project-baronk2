@@ -1,7 +1,7 @@
 # tab_panel_pie_chart
 
 library(shiny)
-
+library(plotly)
 
 # Expected Project Structure Description
 # from
@@ -44,5 +44,27 @@ library(shiny)
 
 tab_panel_pie_chart <-tabPanel(
     "Pie Chart",
-    p("This is a pie chart.")
+    #user input stuffs
+    sidebarLayout(
+      sidebarPanel(
+        width = 2,
+        strong("Select Year:"),
+        selectInput(
+          inputId = "year_choice",
+          label = "year",
+          choices = seq(2000, 2017),
+          selected = 2000
+        )
+      ),
+      
+      #plot goes here
+      mainPanel(
+        h2("pie chart will go here"),
+        plotlyOutput(outputId = "pi_chart"),
+        p(""),
+        p(""),
+        h3("Why This Chart?"),
+        p("This chart was included for many important reasons.")
+      )
+    )
 )
